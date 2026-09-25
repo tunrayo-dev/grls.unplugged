@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Explore useful opportunities, guides, tools, and resources curated to help girls learn, grow, connect, and take their next step."
+    >
+
+    <meta
+        name="keywords"
+        content="Girls' Unplugged, resources for girls, opportunities for girls, scholarships, technology, leadership, education, girls empowerment"
+    >
+
+    <meta name="author" content="Girls' Unplugged: Bloom & Glow Circle">
+
+    <link
+        rel="canonical"
+        href="https://tunrayo-dev.github.io/grls.unplugged/resources.html"
+    >
+
+    <title>Resources | Girls' Unplugged: Bloom &amp; Glow Circle</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+
+    <!-- SKIP LINK -->
+    <a href="#main-content" class="skip-link">
+        Skip to content
+    </a>
+
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="site-header">
+        <div class="container header-inner">
+
+            <a
+                href="index.html"
+                class="site-logo"
+                aria-label="Girls' Unplugged home"
+            >
+                <img
+                    src="assets/logo/girls-unplugged-logo.svg"
+                    alt="Girls' Unplugged: Bloom & Glow Circle"
+                >
+            </a>
+
+
+            <!-- MOBILE MENU BUTTON -->
+            <button
+                class="mobile-menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="primary-navigation"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <!-- NAVIGATION -->
+            <nav
+                id="primary-navigation"
+                class="primary-navigation"
+                aria-label="Primary navigation"
+            >
+
+                <ul class="nav-links desktop-nav">
+
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="circle.html">
+                            The Circle
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="programs.html">
+                            Programs
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="speakers.html">
+                            Speakers
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <ul class="nav-links mobile-nav">
+
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="circle.html">
+                            The Circle
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="programs.html">
+                            Programs
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="speakers.html">
+                            Speakers
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="team.html">
+                            Our Team
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="impact.html">
+                            Our Impact
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="resources.html" class="active">
+                            Resources
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="get-involved.html">
+                            Get Involved
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <a
+                    href="get-involved.html"
+                    class="nav-cta btn btn-primary"
+                >
+                    Join the Sisterhood
+                </a>
+
+            </nav>
+
+        </div>
+    </header>
+
+
+
+    <!-- MAIN CONTENT -->
+    <main id="main-content">
+
+
+        <!-- PAGE HERO -->
+        <section class="page-hero">
+            <div class="container page-hero-content">
+
+                <p class="eyebrow">
+                    RESOURCES FOR YOUR JOURNEY
+                </p>
+
+                <h1 class="page-title">
+                    Things that can help you
+                    <span class="handwritten-accent">
+                        bloom.
+                    </span>
+                </h1>
+
+                <p class="page-hero-description">
+                    Opportunities, guides, tools, and useful information
+                    to help you learn something new, discover possibilities,
+                    and take your next step.
+                </p>
+
+            </div>
+        </section>
+
+
+
+        <!-- INTRO -->
+        <section class="story-section">
+            <div class="container split-section">
+
+                <div class="split-section-media">
+                    <div class="image-frame image-frame-soft">
+
+                        <img
+                            src="assets/images/resources/resources-placeholder.jpg"
+                            alt="Girls learning and exploring useful resources"
+                        >
+
+                    </div>
+                </div>
+
+
+                <div class="split-section-content">
+
+                    <p class="eyebrow">
+                        WHY RESOURCES MATTER
+                    </p>
+
+                    <h2 class="section-heading">
+                        Sometimes, the next step starts with
+                        <span class="handwritten-accent">
+                            finding the right information.
+                        </span>
+                    </h2>
+
+                    <p>
+                        An opportunity can change a girl's direction.
+                        A guide can make something feel less confusing.
+                        One useful link can introduce her to a world
+                        she did not know existed.
+                    </p>
+
+                    <p>
+                        We want this space to make discovering those
+                        things a little easier.
+                    </p>
+
+                    <p>
+                        We are building a growing collection of resources
+                        that Bloomies can return to whenever they need
+                        something useful, practical, or inspiring.
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- RESOURCE CATEGORIES -->
+        <section class="section-soft-lavender">
+            <div class="container">
+
+                <div class="section-heading-centered">
+
+                    <p class="eyebrow">
+                        EXPLORE
+                    </p>
+
+                    <h2 class="section-heading">
+                        Find what you need.
+                    </h2>
+
+                    <p class="section-lead">
+                        From opportunities to personal growth,
+                        there is always something new to explore.
+                    </p>
+
+                </div>
+
+
+                <div class="card-grid three-column-grid">
+
+
+                    <!-- OPPORTUNITIES -->
+                    <article class="card">
+
+                        <div class="card-content">
+
+                            <p class="card-label">
+                                01
+                            </p>
+
+                            <h3>
+                                Opportunities
+                            </h3>
+
+                            <p>
+                                Discover scholarships, fellowships,
+                                competitions, programs, internships,
+                                and other opportunities worth exploring.
+                            </p>
+
+                            <a
+                                href="#opportunities"
+                                class="text-link"
+                            >
+                                Explore opportunities
+                                <span aria-hidden="true">→</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- LEARNING -->
+                    <article class="card">
+
+                        <div class="card-content">
+
+                            <p class="card-label">
+                                02
+                            </p>
+
+                            <h3>
+                                Learning
+                            </h3>
+
+                            <p>
+                                Useful learning materials, courses,
+                                tutorials, and tools for girls who
+                                want to keep building their skills.
+                            </p>
+
+                            <a
+                                href="#learning"
+                                class="text-link"
+                            >
+                                Explore learning
+                                <span aria-hidden="true">→</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- GROWTH -->
+                    <article class="card">
+
+                        <div class="card-content">
+
+                            <p class="card-label">
+                                03
+                            </p>
+
+                            <h3>
+                                Personal Growth
+                            </h3>
+
+                            <p>
+                                Resources around confidence, wellbeing,
+                                communication, leadership, relationships,
+                                and navigating everyday life.
+                            </p>
+
+                            <a
+                                href="#growth"
+                                class="text-link"
+                            >
+                                Explore growth
+                                <span aria-hidden="true">→</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- OPPORTUNITIES -->
+        <section
+            id="opportunities"
+            class="story-section"
+        >
+            <div class="container">
+
+                <div class="section-heading-centered">
+
+                    <p class="eyebrow">
+                        OPPORTUNITIES
+                    </p>
+
+                    <h2 class="section-heading">
+                        Keep an eye out for
+                        <span class="handwritten-accent">
+                            possibilities.
+                        </span>
+                    </h2>
+
+                    <p class="section-lead">
+                        Opportunities do not always find us.
+                        Sometimes, we have to go looking for them.
+                    </p>
+
+                </div>
+
+
+                <div class="card-grid three-column-grid">
+
+
+                    <article class="card resource-card">
+
+                        <div class="card-content">
+
+                            <p class="card-label">
+                                SCHOLARSHIPS
+                            </p>
+
+                            <h3>
+                                Education Opportunities
+                            </h3>
+
+                            <p>
+                                Look out for scholarships, grants,
+                                educational programs, and opportunities
+                                that can support your academic journey.
+                            </p>
+
+                            <span class="resource-status">
+                                Coming soon
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="card resource-card">
+
+                        <div class="card-content">
+
+                            <p class="card-label">
+                                PROGRAMS
+                            </p>
+
+                            <h3>
+                                Youth &amp; Girls' Programs
+                            </h3>
+
+                            <p>
+                                Explore programs created to help young
+                                people build skills, gain experience,
+                                connect with others, and grow.
+                            </p>
+
+                            <span class="resource-status">
+                                Coming soon
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="card resource-card">
+
+                        <div class="card-content">
+
+                            <p class="card-label">
+                                LEADERSHIP
+                            </p>
+
+                            <h3>
+                                Fellowships &amp; Challenges
+                            </h3>
+
+                            <p>
+                                Discover fellowships, leadership programs,
+                                competitions, challenges, and spaces where
+                                young people can take action.
+                            </p>
+
+                            <span class="resource-status">
+                                Coming soon
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- LEARNING -->
+        <section
+            id="learning"
+            class="section-soft-pink"
+        >
+            <div class="container">
+
+                <div class="section-heading-centered">
+
+                    <p class="eyebrow">
+                        LEARN SOMETHING
+                    </p>
+
+                    <h2 class="section-heading">
+                        Your curiosity belongs here.
+                    </h2>
+
+                    <p class="section-lead">
+                        You do not have to know everything.
+                        You just have to stay curious enough to learn.
+                    </p>
+
+                </div>
+
+
+                <div class="card-grid three-column-grid">
+
+
+                    <article class="card">
+
+                        <div class="card-content">
+
+                            <p class="card-label">
+                                TECH
+                            </p>
+
+                            <h3>
+                                Technology &amp; Digital Skills
+                            </h3>
+
+                            <p>
+                                Beginner-friendly resources for girls
+                                interested in coding, technology,
+                                digital tools, data, and creativity.
+                            </p>
+
+                            <span class="resource-status">
+                                More coming soon
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="card">
+
+                        <div class="card-content">
+
+                            <p class="card-label">
+                                CAREER
+                            </p>
+
+                            <h3>
+                                Career Exploration
+                            </h3>
+
+                            <p>
+                                Explore career ideas, skill-building,
+                                professional development, CV preparation,
+                                and preparing for your next opportunity.
+                            </p>
+
+                            <span class="resource-status">
+                                More coming soon
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="card">
+
+                        <div class="card-content">
+
+                            <p class="card-label">
+                                COMMUNICATION
+                            </p>
+
+                            <h3>
+                                Speaking &amp; Communication
+                            </h3>
+
+                            <p>
+                                Resources to help you communicate clearly,
+                                tell your story, speak with confidence,
+                                and use your voice.
+                            </p>
+
+                            <span class="resource-status">
+                                More coming soon
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- PERSONAL GROWTH -->
+<section
+    id="growth"
+    class="section-cream"
+>
+    <div class="container">
+
+        <div class="section-heading-centered">
+
+            <p class="eyebrow">
+                FOR YOU
+            </p>
+
+            <h2 class="section-heading">
+                Growing is personal.
+            </h2>
+
+            <p class="section-lead">
+                Not everything we need to learn comes from a
+                classroom.
+            </p>
+
+        </div>
+
+
+        <div class="values-grid">
+
+            <article class="value-card">
+
+                <span class="value-number">
+                    01
+                </span>
+
+                <h3>
+                    Confidence
+                </h3>
+
+                <p>
+                    Resources to help you understand yourself,
+                    recognise your strengths, and take up space
+                    without pretending to be someone else.
+                </p>
+
+            </article>
+
+
+            <article class="value-card">
+
+                <span class="value-number">
+                    02
+                </span>
+
+                <h3>
+                    Wellbeing
+                </h3>
+
+                <p>
+                    Helpful information for navigating emotions,
+                    friendships, boundaries, self-care,
+                    and everyday life.
+                </p>
+
+            </article>
+
+
+            <article class="value-card">
+
+                <span class="value-number">
+                    03
+                </span>
+
+                <h3>
+                    Leadership
+                </h3>
+
+                <p>
+                    Learn how to lead with empathy, communicate
+                    your ideas, collaborate with others, and
+                    turn ideas into action.
+                </p>
+
+            </article>
+
+
+            <article class="value-card">
+
+                <span class="value-number">
+                    04
+                </span>
+
+                <h3>
+                    Life Skills
+                </h3>
+
+                <p>
+                    Practical resources for making decisions,
+                    navigating new seasons, asking questions,
+                    and figuring things out along the way.
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- FEATURED RESOURCE -->
+<section class="story-section">
+    <div class="container split-section split-section-reverse">
+
+        <div class="split-section-media">
+            <div class="image-frame">
+
+                <img
+                    src="assets/images/resources/featured-resource-placeholder.jpg"
+                    alt="A girl exploring a useful learning resource"
+                >
+
+            </div>
+        </div>
+
+
+        <div class="split-section-content">
+
+            <p class="eyebrow">
+                A LITTLE REMINDER
+            </p>
+
+            <h2 class="section-heading">
+                You are allowed to
+                <span class="handwritten-accent">
+                    start small.
+                </span>
+            </h2>
+
+            <p>
+                You do not need to have your entire future figured
+                out before you begin.
+            </p>
+
+            <p>
+                Learn one thing. Ask one question. Apply for one
+                opportunity. Read one article. Try one new skill.
+            </p>
+
+            <p>
+                Small steps count too.
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- RESOURCE SUBMISSION -->
+<section class="section-soft-lavender">
+    <div class="container">
+
+        <div class="final-cta">
+
+            <div class="final-cta-content">
+
+                <p class="eyebrow">
+                    SHARE WITH THE COMMUNITY
+                </p>
+
+                <h2 class="section-heading">
+                    Know a resource Bloomies should see?
+                </h2>
+
+                <p>
+                    If you know about an opportunity, guide,
+                    tool, event, or resource that could genuinely
+                    help girls in our community, we would love
+                    to hear about it.
+                </p>
+
+            </div>
+
+
+            <div class="final-cta-actions">
+
+                <a
+                    href="contact.html"
+                    class="btn btn-primary"
+                >
+                    Share a Resource
+                </a>
+
+                <a
+                    href="get-involved.html"
+                    class="btn btn-outline"
+                >
+                    Get Involved
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- FINAL CTA -->
+<section class="final-cta-section">
+    <div class="container">
+
+        <div class="final-cta">
+
+            <div class="final-cta-content">
+
+                <p class="eyebrow">
+                    KEEP GOING
+                </p>
+
+                <h2 class="section-heading">
+                    The next chapter could start
+                    with one small step.
+                </h2>
+
+                <p>
+                    Explore the resources, join the sisterhood,
+                    and keep becoming the girl you want to be.
+                </p>
+
+            </div>
+
+
+            <div class="final-cta-actions">
+
+                <a
+                    href="circle.html"
+                    class="btn btn-primary"
+                >
+                    Explore the Circle
+                </a>
+
+                <a
+                    href="get-involved.html"
+                    class="btn btn-outline"
+                >
+                    Join the Sisterhood
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+
+
+<!-- FLOATING FAQ -->
+<a
+    href="faq.html"
+    class="floating-faq"
+    aria-label="Visit frequently asked questions"
+>
+
+    <span class="floating-faq-image-wrapper">
+
+        <img
+            src="assets/images/general/faq-girl-placeholder.png"
+            alt=""
+            class="floating-faq-image"
+        >
+
+    </span>
+
+    <span class="floating-faq-bubble">
+        Got a question?
+        <strong>Ask me!</strong>
+    </span>
+
+</a>
+
+
+
+<!-- FOOTER -->
+<footer class="site-footer">
+
+    <div class="container footer-main">
+
+
+        <!-- FOOTER BRAND -->
+        <div class="footer-brand">
+
+            <a
+                href="index.html"
+                class="footer-logo-link"
+                aria-label="Girls' Unplugged home"
+            >
+
+                <img
+                    src="assets/logo/girls-unplugged-logo-light.svg"
+                    alt="Girls' Unplugged"
+                    class="footer-logo"
+                >
+
+            </a>
+
+
+            <p class="footer-description">
+                A safe sisterhood where girls can connect, share,
+                laugh, learn, and grow together.
+            </p>
+
+
+            <p class="footer-motto">
+                Action, not titles.
+            </p>
+
+        </div>
+
+
+
+        <!-- EXPLORE -->
+        <div class="footer-column">
+
+            <h3 class="footer-heading">
+                Explore
+            </h3>
+
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="about.html">
+                        About Us
+                    </a>
+                </li>
+
+                <li>
+                    <a href="circle.html">
+                        The Circle
+                    </a>
+                </li>
+
+                <li>
+                    <a href="programs.html">
+                        Programs
+                    </a>
+                </li>
+
+                <li>
+                    <a href="speakers.html">
+                        Speakers
+                    </a>
+                </li>
+
+                <li>
+                    <a href="team.html">
+                        Our Team
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- COMMUNITY -->
+        <div class="footer-column">
+
+            <h3 class="footer-heading">
+                Community
+            </h3>
+
+
+            <ul class="footer-links">
+
+                <li>
+                    <a href="impact.html">
+                        Our Impact
+                    </a>
+                </li>
+
+                <li>
+                    <a href="resources.html">
+                        Resources
+                    </a>
+                </li>
+
+                <li>
+                    <a href="get-involved.html">
+                        Get Involved
+                    </a>
+                </li>
+
+                <li>
+                    <a href="faq.html">
+                        FAQ
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+
+        <!-- CONNECT -->
+        <div class="footer-column footer-connect">
+
+            <h3 class="footer-heading">
+                Stay connected
+            </h3>
+
+
+            <p class="footer-description">
+                Follow the Bloomies, keep up with what we're doing,
+                and never miss a community moment.
+            </p>
+
+
+            <div class="social-links">
+
+                <!-- INSTAGRAM -->
+                <a
+                    href="https://www.instagram.com/grls_unplugged/"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Girls' Unplugged on Instagram"
+                >
+
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                        focusable="false"
+                    >
+
+                        <rect
+                            x="3"
+                            y="3"
+                            width="18"
+                            height="18"
+                            rx="5"
+                            ry="5"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.8"
+                        ></rect>
+
+                        <circle
+                            cx="12"
+                            cy="12"
+                            r="4"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.8"
+                        ></circle>
+
+                        <circle
+                            cx="17.5"
+                            cy="6.5"
+                            r="1"
+                            fill="currentColor"
+                        ></circle>
+
+                    </svg>
+
+                    <span class="sr-only">
+                        Instagram
+                    </span>
+
+                </a>
+
+
+
+                <!-- TIKTOK -->
+                <a
+                    href="https://www.tiktok.com/@grls.unplugged"
+                    class="social-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Girls' Unplugged on TikTok"
+                >
+
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                        focusable="false"
+                    >
+
+                        <path
+                            d="M15.5 4.5c.4 2.1 1.6 3.4 3.5 3.7v3.1c-1.5-.1-2.8-.6-3.8-1.5v6.1c0 3.1-2.1 5.1-5.1 5.1-2.8 0-4.8-1.9-4.8-4.5 0-2.9 2.4-4.8 5.7-4.8.3 0 .6 0 .9.1v3.1c-.3-.1-.6-.1-.9-.1-1.2 0-2.3.7-2.3 1.8 0 .9.7 1.5 1.6 1.5 1.1 0 1.9-.8 1.9-2.2V4.5h3.3Z"
+                            fill="currentColor"
+                        ></path>
+
+                    </svg>
+
+                    <span class="sr-only">
+                        TikTok
+                    </span>
+
+                </a>
+
+
+
+                <!-- EMAIL -->
+                <a
+                    href="mailto:grlsunplugged@gmail.com"
+                    class="social-link"
+                    aria-label="Email Girls' Unplugged"
+                >
+
+                    <svg
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                        focusable="false"
+                    >
+
+                        <rect
+                            x="3"
+                            y="5"
+                            width="18"
+                            height="14"
+                            rx="2"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.8"
+                        ></rect>
+
+                        <path
+                            d="M4 7l8 6 8-6"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.8"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        ></path>
+
+                    </svg>
+
+                    <span class="sr-only">
+                        Email
+                    </span>
+
+                </a>
+
+            </div>
+
+
+            <a
+                href="mailto:grlsunplugged@gmail.com"
+                class="footer-email"
+            >
+                grlsunplugged@gmail.com
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- FOOTER CTA -->
+    <div class="container footer-cta-wrapper">
+
+        <a
+            href="get-involved.html"
+            class="footer-cta"
+        >
+
+            <span class="footer-cta-label">
+                Ready to bloom with us?
+            </span>
+
+            <span
+                class="footer-cta-arrow"
+                aria-hidden="true"
+            >
+                →
+            </span>
+
+        </a>
+
+    </div>
+
+
+
+    <!-- FOOTER BOTTOM -->
+    <div class="footer-bottom">
+
+        <div class="container footer-bottom-inner">
+
+            <p class="footer-copyright">
+                ©
+                <span data-current-year>
+                    2026
+                </span>
+                Girls' Unplugged: Bloom &amp; Glow Circle.
+                All rights reserved.
+            </p>
+
+
+            <div class="footer-legal-links">
+
+                <a href="privacy.html">
+                    Privacy
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- JAVASCRIPT -->
+<script src="js/navigation.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

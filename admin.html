@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Girls' Unplugged community administration dashboard."
+    >
+
+    <meta
+        name="author"
+        content="Girls' Unplugged: Bloom & Glow Circle"
+    >
+
+    <meta
+        name="theme-color"
+        content="#4B2454"
+    >
+
+    <title>
+        Admin Dashboard | Girls' Unplugged
+    </title>
+
+
+    <!-- GOOGLE FONTS -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- STYLES -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/responsive.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="css/animations.css"
+    >
+
+</head>
+
+
+<body class="admin-page">
+
+
+    <!-- SKIP LINK -->
+
+    <a
+        href="#main-content"
+        class="skip-link"
+    >
+        Skip to content
+    </a>
+
+
+
+    <!-- HEADER -->
+
+    <header class="site-header">
+
+        <div class="container header-inner">
+
+
+            <!-- LOGO -->
+
+            <a
+                href="index.html"
+                class="site-logo"
+                aria-label="Girls' Unplugged home"
+            >
+
+                <img
+                    src="assets/logo/girls-unplugged-logo.svg"
+                    alt="Girls' Unplugged: Bloom & Glow Circle"
+                >
+
+            </a>
+
+
+
+            <!-- MOBILE MENU -->
+
+            <button
+                class="mobile-menu-toggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="primary-navigation"
+                aria-label="Open navigation menu"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+
+
+            <!-- NAVIGATION -->
+
+            <nav
+                id="primary-navigation"
+                class="primary-navigation"
+                aria-label="Primary navigation"
+            >
+
+                <!-- DESKTOP -->
+
+                <div class="desktop-navigation">
+
+                    <a href="index.html">
+                        View Website
+                    </a>
+
+                    <a href="about.html">
+                        About
+                    </a>
+
+                    <a href="circle.html">
+                        The Circle
+                    </a>
+
+                    <a href="programs.html">
+                        Programs
+                    </a>
+
+                    <a
+                        href="get-involved.html"
+                        class="nav-cta"
+                    >
+                        Join the Sisterhood
+                    </a>
+
+                </div>
+
+
+
+                <!-- MOBILE -->
+
+                <div class="mobile-navigation">
+
+                    <a href="index.html">
+                        View Website
+                    </a>
+
+                    <a href="about.html">
+                        About
+                    </a>
+
+                    <a href="circle.html">
+                        The Circle
+                    </a>
+
+                    <a href="programs.html">
+                        Programs
+                    </a>
+
+                    <a href="speakers.html">
+                        Speakers
+                    </a>
+
+                    <a href="team.html">
+                        Our Team
+                    </a>
+
+                    <a href="impact.html">
+                        Our Impact
+                    </a>
+
+                    <a href="resources.html">
+                        Resources
+                    </a>
+
+                    <a href="get-involved.html">
+                        Get Involved
+                    </a>
+
+                    <a href="faq.html">
+                        FAQ
+                    </a>
+
+                    <a href="contact.html">
+                        Contact
+                    </a>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- MAIN -->
+
+    <main id="main-content">
+
+
+        <!-- ADMIN HERO -->
+
+        <section class="admin-hero">
+
+            <div class="container">
+
+                <div class="admin-hero-content">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            GIRLS' UNPLUGGED
+                        </p>
+
+                        <h1>
+                            Community dashboard.
+                        </h1>
+
+                        <p>
+                            A central place to manage the information
+                            that powers the Girls' Unplugged website.
+                        </p>
+
+                    </div>
+
+
+                    <div class="admin-status">
+
+                        <span class="admin-status-dot"></span>
+
+                        <span>
+                            Static preview
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- NOTICE -->
+
+        <section class="admin-notice-section">
+
+            <div class="container">
+
+                <div class="admin-notice">
+
+                    <div class="admin-notice-icon">
+                        !
+                    </div>
+
+                    <div>
+
+                        <h2>
+                            This dashboard is not connected to a
+                            database yet.
+                        </h2>
+
+                        <p>
+                            The interface is ready for future
+                            authentication, database, and content
+                            management integration. On GitHub Pages,
+                            these controls cannot securely write to
+                            your website's files on their own.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- DASHBOARD -->
+
+        <section class="admin-dashboard-section">
+
+            <div class="container">
+
+
+                <!-- OVERVIEW -->
+
+                <div class="admin-section-header">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            OVERVIEW
+                        </p>
+
+                        <h2>
+                            At a glance
+                        </h2>
+
+                    </div>
+
+                    <span class="admin-last-updated">
+                        Dashboard preview
+                    </span>
+
+                </div>
+
+
+
+                <div class="admin-stat-grid">
+
+
+                    <!-- MEMBERS -->
+
+                    <article class="admin-stat-card">
+
+                        <div class="admin-stat-top">
+
+                            <span class="admin-stat-label">
+                                Bloomies
+                            </span>
+
+                            <span class="admin-stat-icon">
+                                ♡
+                            </span>
+
+                        </div>
+
+                        <strong class="admin-stat-number">
+                            90+
+                        </strong>
+
+                        <p>
+                            Girls currently represented
+                            in the community.
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- COUNTRIES -->
+
+                    <article class="admin-stat-card">
+
+                        <div class="admin-stat-top">
+
+                            <span class="admin-stat-label">
+                                Countries
+                            </span>
+
+                            <span class="admin-stat-icon">
+                                ◎
+                            </span>
+
+                        </div>
+
+                        <strong class="admin-stat-number">
+                            6+
+                        </strong>
+
+                        <p>
+                            African countries represented
+                            across the Circle.
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- PROGRAMS -->
+
+                    <article class="admin-stat-card">
+
+                        <div class="admin-stat-top">
+
+                            <span class="admin-stat-label">
+                                Programs
+                            </span>
+
+                            <span class="admin-stat-icon">
+                                ✦
+                            </span>
+
+                        </div>
+
+                        <strong class="admin-stat-number">
+                            6
+                        </strong>
+
+                        <p>
+                            Core program and community
+                            activity areas.
+                        </p>
+
+                    </article>
+
+
+
+                    <!-- SPEAKERS -->
+
+                    <article class="admin-stat-card">
+
+                        <div class="admin-stat-top">
+
+                            <span class="admin-stat-label">
+                                Speakers
+                            </span>
+
+                            <span class="admin-stat-icon">
+                                ◌
+                            </span>
+
+                        </div>
+
+                        <strong class="admin-stat-number">
+                            3
+                        </strong>
+
+                        <p>
+                            Featured placeholder speaker
+                            profiles currently shown.
+                        </p>
+
+                    </article>
+
+                </div>
+
+
+
+                <!-- CONTENT MANAGEMENT -->
+
+                <div class="admin-section-header admin-section-header-spaced">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            CONTENT
+                        </p>
+
+                        <h2>
+                            Manage website content
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="admin-management-grid">
+
+
+                    <!-- TEAM -->
+
+                    <article class="admin-management-card">
+
+                        <div class="admin-management-icon">
+                            ♡
+                        </div>
+
+                        <div class="admin-management-content">
+
+                            <h3>
+                                Team
+                            </h3>
+
+                            <p>
+                                Add, update, or organise team
+                                member profiles.
+                            </p>
+
+                            <button
+                                type="button"
+                                class="btn btn-outline admin-disabled-action"
+                                disabled
+                            >
+                                Manage Team
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- SPEAKERS -->
+
+                    <article class="admin-management-card">
+
+                        <div class="admin-management-icon">
+                            ✦
+                        </div>
+
+                        <div class="admin-management-content">
+
+                            <h3>
+                                Speakers
+                            </h3>
+
+                            <p>
+                                Manage guest speakers, bios,
+                                topics, and profile images.
+                            </p>
+
+                            <button
+                                type="button"
+                                class="btn btn-outline admin-disabled-action"
+                                disabled
+                            >
+                                Manage Speakers
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PROGRAMS -->
+
+                    <article class="admin-management-card">
+
+                        <div class="admin-management-icon">
+                            ◇
+                        </div>
+
+                        <div class="admin-management-content">
+
+                            <h3>
+                                Programs
+                            </h3>
+
+                            <p>
+                                Update programs, activities,
+                                schedules, and descriptions.
+                            </p>
+
+                            <button
+                                type="button"
+                                class="btn btn-outline admin-disabled-action"
+                                disabled
+                            >
+                                Manage Programs
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- RESOURCES -->
+
+                    <article class="admin-management-card">
+
+                        <div class="admin-management-icon">
+                            ⊹
+                        </div>
+
+                        <div class="admin-management-content">
+
+                            <h3>
+                                Resources
+                            </h3>
+
+                            <p>
+                                Organise opportunities, learning
+                                materials, and useful links.
+                            </p>
+
+                            <button
+                                type="button"
+                                class="btn btn-outline admin-disabled-action"
+                                disabled
+                            >
+                                Manage Resources
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- IMPACT -->
+
+                    <article class="admin-management-card">
+
+                        <div class="admin-management-icon">
+                            ↗
+                        </div>
+
+                        <div class="admin-management-content">
+
+                            <h3>
+                                Impact
+                            </h3>
+
+                            <p>
+                                Update community statistics,
+                                stories, and impact highlights.
+                            </p>
+
+                            <button
+                                type="button"
+                                class="btn btn-outline admin-disabled-action"
+                                disabled
+                            >
+                                Manage Impact
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- SITE SETTINGS -->
+
+                    <article class="admin-management-card">
+
+                        <div class="admin-management-icon">
+                            ⚙
+                        </div>
+
+                        <div class="admin-management-content">
+
+                            <h3>
+                                Site Settings
+                            </h3>
+
+                            <p>
+                                Manage general site information,
+                                social links, and community details.
+                            </p>
+
+                            <button
+                                type="button"
+                                class="btn btn-outline admin-disabled-action"
+                                disabled
+                            >
+                                Site Settings
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+
+                <!-- QUICK ACTIONS -->
+
+                <div class="admin-section-header admin-section-header-spaced">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            QUICK ACTIONS
+                        </p>
+
+                        <h2>
+                            Jump somewhere quickly.
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="admin-quick-actions">
+
+
+                    <a
+                        href="index.html"
+                        class="admin-quick-action"
+                    >
+
+                        <span>
+                            View Homepage
+                        </span>
+
+                        <span aria-hidden="true">
+                            →
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="circle.html"
+                        class="admin-quick-action"
+                    >
+
+                        <span>
+                            View the Circle
+                        </span>
+
+                        <span aria-hidden="true">
+                            →
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="programs.html"
+                        class="admin-quick-action"
+                    >
+
+                        <span>
+                            View Programs
+                        </span>
+
+                        <span aria-hidden="true">
+                            →
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="contact.html"
+                        class="admin-quick-action"
+                    >
+
+                        <span>
+                            View Contact Page
+                        </span>
+
+                        <span aria-hidden="true">
+                            →
+                        </span>
+
+                    </a>
+
+                </div>
+
+
+                <!-- FUTURE INTEGRATION -->
+
+                <section class="admin-future-section">
+
+                    <div class="admin-future-content">
+
+                        <p class="eyebrow">
+                            BUILT FOR WHAT'S NEXT
+                        </p>
+
+                        <h2>
+                            The foundation is ready.
+                        </h2>
+
+                        <p>
+                            When Girls' Unplugged is ready for a
+                            proper content management system, this
+                            dashboard can be connected to secure
+                            authentication and a backend.
+                        </p>
+
+                        <div class="admin-future-list">
+
+                            <div>
+                                <span>01</span>
+
+                                <p>
+                                    Secure administrator login
+                                </p>
+                            </div>
+
+
+                            <div>
+                                <span>02</span>
+
+                                <p>
+                                    Database-backed content
+                                </p>
+                            </div>
+
+
+                            <div>
+                                <span>03</span>
+
+                                <p>
+                                    Image and media management
+                                </p>
+                            </div>
+
+
+                            <div>
+                                <span>04</span>
+
+                                <p>
+                                    Form and enquiry management
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- FINAL CTA -->
+
+        <section class="final-cta-section">
+
+            <div class="container">
+
+                <div class="final-cta">
+
+                    <div class="final-cta-content">
+
+                        <p class="eyebrow">
+                            BACK TO THE COMMUNITY
+                        </p>
+
+                        <h2>
+                            The girls are the heart of this.
+                        </h2>
+
+                        <p>
+                            Everything we build should make the
+                            Circle feel a little more like home.
+                        </p>
+
+                    </div>
+
+
+                    <div class="final-cta-actions">
+
+                        <a
+                            href="index.html"
+                            class="btn btn-primary"
+                        >
+                            View Website
+                        </a>
+
+                        <a
+                            href="get-involved.html"
+                            class="btn btn-outline"
+                        >
+                            Get Involved
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+
+
+        <!-- FOOTER MAIN -->
+
+        <div class="footer-main container">
+
+
+            <!-- BRAND -->
+
+            <div class="footer-brand">
+
+                <a
+                    href="index.html"
+                    class="footer-logo"
+                    aria-label="Girls' Unplugged home"
+                >
+
+                    <img
+                        src="assets/logo/girls-unplugged-logo-light.svg"
+                        alt="Girls' Unplugged: Bloom & Glow Circle"
+                    >
+
+                </a>
+
+
+                <p class="footer-description">
+                    A girls-created sisterhood where we connect,
+                    share, laugh, learn, and grow together.
+                </p>
+
+
+                <p class="footer-motto">
+                    Action, not titles.
+                </p>
+
+            </div>
+
+
+
+            <!-- EXPLORE -->
+
+            <div class="footer-column">
+
+                <h2 class="footer-heading">
+                    Explore
+                </h2>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="about.html">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="circle.html">
+                            The Circle
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="programs.html">
+                            Programs
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="speakers.html">
+                            Speakers
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="team.html">
+                            Our Team
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+            <!-- COMMUNITY -->
+
+            <div class="footer-column">
+
+                <h2 class="footer-heading">
+                    Community
+                </h2>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="impact.html">
+                            Our Impact
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="resources.html">
+                            Resources
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="get-involved.html">
+                            Get Involved
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+
+            <!-- CONNECT -->
+
+            <div class="footer-column footer-connect">
+
+                <h2 class="footer-heading">
+                    Stay connected
+                </h2>
+
+
+                <div class="social-links">
+
+
+                    <!-- INSTAGRAM -->
+
+                    <a
+                        href="https://www.instagram.com/grls_unplugged/"
+                        class="social-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Girls' Unplugged on Instagram"
+                    >
+
+                        <svg
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                        >
+
+                            <rect
+                                x="3"
+                                y="3"
+                                width="18"
+                                height="18"
+                                rx="5"
+                                ry="5"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                            ></rect>
+
+                            <circle
+                                cx="12"
+                                cy="12"
+                                r="4"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                            ></circle>
+
+                            <circle
+                                cx="17.5"
+                                cy="6.5"
+                                r="1"
+                                fill="currentColor"
+                            ></circle>
+
+                        </svg>
+
+                        <span class="sr-only">
+                            Instagram
+                        </span>
+
+                    </a>
+
+
+
+                    <!-- TIKTOK -->
+
+                    <a
+                        href="https://www.tiktok.com/@grls.unplugged"
+                        class="social-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Girls' Unplugged on TikTok"
+                    >
+
+                        <svg
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                        >
+
+                            <path
+                                d="M15.5 4c.4 2.2 1.7 3.5 3.8 3.7v3.1c-1.4 0-2.7-.4-3.8-1.1v5.6c0 3.6-2.2 5.7-5.5 5.7-3 0-5.3-2-5.3-4.9 0-3 2.4-5.1 5.5-5.1.4 0 .8 0 1.2.1v3.1c-.4-.1-.7-.2-1.1-.2-1.2 0-2.3.8-2.3 2 0 1.1.9 1.9 2 1.9 1.4 0 2.3-.8 2.3-2.6V4h3.2Z"
+                                fill="currentColor"
+                            ></path>
+
+                        </svg>
+
+                        <span class="sr-only">
+                            TikTok
+                        </span>
+
+                    </a>
+
+
+
+                    <!-- EMAIL -->
+
+                    <a
+                        href="mailto:grlsunplugged@gmail.com"
+                        class="social-link"
+                        aria-label="Email Girls' Unplugged"
+                    >
+
+                        <svg
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                        >
+
+                            <rect
+                                x="3"
+                                y="5"
+                                width="18"
+                                height="14"
+                                rx="2"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                            ></rect>
+
+                            <path
+                                d="m4 7 8 6 8-6"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                            ></path>
+
+                        </svg>
+
+                        <span class="sr-only">
+                            Email
+                        </span>
+
+                    </a>
+
+                </div>
+
+
+                <a
+                    href="mailto:grlsunplugged@gmail.com"
+                    class="footer-email"
+                >
+                    grlsunplugged@gmail.com
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- FOOTER CTA -->
+
+        <div class="container footer-cta-wrapper">
+
+            <a
+                href="get-involved.html"
+                class="footer-cta"
+            >
+
+                <span class="footer-cta-label">
+                    Ready to bloom with us?
+                </span>
+
+                <span
+                    class="footer-cta-arrow"
+                    aria-hidden="true"
+                >
+                    →
+                </span>
+
+            </a>
+
+        </div>
+
+
+
+        <!-- FOOTER BOTTOM -->
+
+        <div class="footer-bottom">
+
+            <div class="container footer-bottom-inner">
+
+                <p class="footer-copyright">
+
+                    ©
+
+                    <span data-current-year>
+                        2026
+                    </span>
+
+                    Girls' Unplugged: Bloom &amp; Glow Circle.
+                    All rights reserved.
+
+                </p>
+
+
+                <div class="footer-legal-links">
+
+                    <a href="privacy.html">
+                        Privacy
+                    </a>
+
+                    <a href="contact.html">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="js/navigation.js"></script>
+
+    <script src="js/animations.js"></script>
+
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

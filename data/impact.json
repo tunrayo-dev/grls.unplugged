@@ -1,0 +1,209 @@
+{
+    "impact": {
+        "title": "The Impact Is in the Girls",
+        "intro": "The heart of Girls' Unplugged is not just what we organise. It is what happens when a girl feels less alone, finds her voice, learns something new, makes a friend, or realises she can take the next step.",
+        "status": "Growing impact"
+    },
+    "atAGlance": [
+        {
+            "value": "90+",
+            "label": "Bloomies",
+            "description": "Girls connected through the growing Bloom & Glow Circle."
+        },
+        {
+            "value": "6+",
+            "label": "African countries",
+            "description": "A growing community connecting girls across African countries."
+        },
+        {
+            "value": "1",
+            "label": "Growing sisterhood",
+            "description": "One community built around connection, growth, honesty, and belonging."
+        },
+        {
+            "value": "∞",
+            "label": "Possibilities",
+            "description": "Because there is no limit to what girls can become, create, and contribute."
+        }
+    ],
+    "whereImpactShowsUp": [
+        {
+            "id": "connection",
+            "title": "Connection",
+            "description": "Girls have opportunities to meet, talk, laugh, and build relationships with other girls."
+        },
+        {
+            "id": "confidence",
+            "title": "Confidence",
+            "description": "A supportive environment can make it easier for girls to speak, ask questions, share ideas, and express themselves."
+        },
+        {
+            "id": "personal-growth",
+            "title": "Personal Growth",
+            "description": "Conversations and activities create opportunities for reflection, learning, and becoming."
+        },
+        {
+            "id": "joy",
+            "title": "Joy",
+            "description": "Fun matters too. Games, laughter, and lighter moments are part of creating a community girls actually enjoy being part of."
+        },
+        {
+            "id": "voice",
+            "title": "Voice",
+            "description": "Girls are encouraged to bring their questions, opinions, experiences, and ideas into the community."
+        },
+        {
+            "id": "belonging",
+            "title": "Belonging",
+            "description": "The Circle is designed to remind girls that they deserve spaces where they can show up as themselves."
+        }
+    ],
+    "communityExperience": [
+        {
+            "quote": "I found my people.",
+            "theme": "Connection",
+            "description": "Finding girls who share experiences, questions, interests, or simply understand can make a community feel like home."
+        },
+        {
+            "quote": "I finally asked.",
+            "theme": "Voice",
+            "description": "A safe and welcoming environment can make it easier to ask the question that has been sitting in your head."
+        },
+        {
+            "quote": "I didn't feel alone.",
+            "theme": "Belonging",
+            "description": "Sometimes knowing that someone else understands is already a meaningful form of support."
+        },
+        {
+            "quote": "I learnt something.",
+            "theme": "Learning",
+            "description": "Guest conversations, community discussions, and shared experiences create opportunities to learn from one another."
+        },
+        {
+            "quote": "I had fun!",
+            "theme": "Joy",
+            "description": "Friendship and fun are part of the experience, not an afterthought."
+        },
+        {
+            "quote": "I can do this.",
+            "theme": "Confidence",
+            "description": "Encouragement and connection can help a girl feel more ready to take her next step."
+        }
+    ],
+    "girlLedImpact": {
+        "title": "Impact That Starts With Girls",
+        "description": "Girls' Unplugged is shaped by the girls who are part of it. Their questions, interests, conversations, ideas, feedback, and participation help shape what the community becomes.",
+        "principles": [
+            "Girls help shape conversations.",
+            "Girls can suggest topics and activities.",
+            "Girls can share ideas and experiences.",
+            "Girls can participate in community activities.",
+            "Girls can help make the Circle feel welcoming to others."
+        ]
+    },
+    "programImpact": [
+        {
+            "program": "Weekly Vibes",
+            "impactAreas": [
+                "Connection",
+                "Consistency",
+                "Wellbeing",
+                "Joy",
+                "Reflection"
+            ],
+            "description": "Regular community moments create simple opportunities for Bloomies to stay connected throughout the week."
+        },
+        {
+            "program": "Guest Conversations",
+            "impactAreas": [
+                "Learning",
+                "Confidence",
+                "Voice",
+                "Exposure"
+            ],
+            "description": "Conversations with guest speakers give girls opportunities to hear different experiences, learn, and ask questions."
+        },
+        {
+            "program": "Community Calls",
+            "impactAreas": [
+                "Belonging",
+                "Connection",
+                "Community"
+            ],
+            "description": "Quarterly calls create dedicated moments for Bloomies to connect beyond everyday group conversations."
+        },
+        {
+            "program": "Game Nights",
+            "impactAreas": [
+                "Joy",
+                "Friendship",
+                "Connection"
+            ],
+            "description": "Games and lighter activities create room for girls to relax, laugh, and build friendships."
+        },
+        {
+            "program": "Anonymous Night",
+            "impactAreas": [
+                "Voice",
+                "Honesty",
+                "Connection"
+            ],
+            "description": "Anonymous submissions can create room for girls to raise questions or share thoughts they may not be ready to attach their names to."
+        }
+    ],
+    "impactApproach": {
+        "title": "How We Think About Impact",
+        "description": "Impact is not only a big number. We also pay attention to the smaller moments that tell us a girl is connecting, participating, learning, growing, or finding a sense of belonging.",
+        "areas": [
+            {
+                "title": "Reach",
+                "description": "Who is finding and joining the community?"
+            },
+            {
+                "title": "Participation",
+                "description": "How are Bloomies showing up in conversations and activities?"
+            },
+            {
+                "title": "Experience",
+                "description": "How do girls describe their experience within the Circle?"
+            },
+            {
+                "title": "Growth",
+                "description": "What are girls learning, exploring, trying, or becoming more confident about?"
+            },
+            {
+                "title": "Connection",
+                "description": "Are girls finding meaningful relationships and a stronger sense of belonging?"
+            }
+        ]
+    },
+    "lookingAhead": [
+        {
+            "title": "More girls reached",
+            "description": "Continue opening the Circle to girls who are looking for connection, growth, friendship, and community."
+        },
+        {
+            "title": "More conversations",
+            "description": "Create more opportunities for honest, useful, and girl-led conversations."
+        },
+        {
+            "title": "More opportunities",
+            "description": "Connect Bloomies with useful resources, learning experiences, speakers, and opportunities as the platform grows."
+        }
+    ],
+    "futureMeasurement": {
+        "status": "Planned",
+        "description": "As Girls' Unplugged grows, impact tracking can become more structured while keeping the girls and their experiences at the centre.",
+        "possibleMeasures": [
+            "Community membership",
+            "Geographic reach",
+            "Program participation",
+            "Session attendance",
+            "Resource engagement",
+            "Community feedback",
+            "Girl-led activities",
+            "Partnerships",
+            "Qualitative stories and reflections"
+        ]
+    }
+}

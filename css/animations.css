@@ -1,0 +1,1012 @@
+/* =========================================================
+   GIRLS' UNPLUGGED — ANIMATIONS
+   File: css/animations.css
+   ========================================================= */
+
+
+/* =========================================================
+   1. ANIMATION VARIABLES
+   ========================================================= */
+
+:root {
+    --animation-duration-fast: 0.25s;
+    --animation-duration-base: 0.55s;
+    --animation-duration-slow: 0.8s;
+
+    --animation-ease:
+        cubic-bezier(0.22, 1, 0.36, 1);
+
+    --animation-ease-soft:
+        cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+/* =========================================================
+   2. KEYFRAMES
+   ========================================================= */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(28px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes fadeLeft {
+    from {
+        opacity: 0;
+        transform: translateX(28px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes fadeRight {
+    from {
+        opacity: 0;
+        transform: translateX(-28px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.94);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+@keyframes softScale {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.035);
+    }
+}
+
+
+@keyframes floatGentle {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+
+@keyframes floatSlow {
+    0%,
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    50% {
+        transform: translate3d(0, -12px, 0);
+    }
+}
+
+
+@keyframes pulseSoft {
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.82;
+        transform: scale(1.04);
+    }
+}
+
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        max-height: 0;
+        transform: translateY(-8px);
+    }
+
+    to {
+        opacity: 1;
+        max-height: 1000px;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes menuFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes underlineGrow {
+    from {
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+
+    to {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+}
+
+
+/* =========================================================
+   3. PAGE LOAD
+   ========================================================= */
+
+body {
+    animation: fadeIn 0.35s var(--animation-ease-soft) both;
+}
+
+.page-hero-content {
+    animation:
+        fadeUp 0.75s var(--animation-ease) 0.05s both;
+}
+
+.hero-content {
+    animation:
+        fadeUp 0.8s var(--animation-ease) 0.05s both;
+}
+
+.hero-media {
+    animation:
+        fadeIn 0.9s var(--animation-ease) 0.2s both;
+}
+
+
+/* =========================================================
+   4. SCROLL REVEAL SYSTEM
+   ========================================================= */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition:
+        opacity 0.7s var(--animation-ease),
+        transform 0.7s var(--animation-ease);
+}
+
+.reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.reveal-up {
+    opacity: 0;
+    transform: translateY(34px);
+    transition:
+        opacity 0.75s var(--animation-ease),
+        transform 0.75s var(--animation-ease);
+}
+
+.reveal-up.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.reveal-down {
+    opacity: 0;
+    transform: translateY(-28px);
+    transition:
+        opacity 0.7s var(--animation-ease),
+        transform 0.7s var(--animation-ease);
+}
+
+.reveal-down.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.reveal-left {
+    opacity: 0;
+    transform: translateX(34px);
+    transition:
+        opacity 0.75s var(--animation-ease),
+        transform 0.75s var(--animation-ease);
+}
+
+.reveal-left.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.reveal-right {
+    opacity: 0;
+    transform: translateX(-34px);
+    transition:
+        opacity 0.75s var(--animation-ease),
+        transform 0.75s var(--animation-ease);
+}
+
+.reveal-right.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.reveal-scale {
+    opacity: 0;
+    transform: scale(0.94);
+    transition:
+        opacity 0.7s var(--animation-ease),
+        transform 0.7s var(--animation-ease);
+}
+
+.reveal-scale.is-visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+/* =========================================================
+   5. STAGGERED REVEALS
+   ========================================================= */
+
+.stagger > * {
+    opacity: 0;
+    transform: translateY(24px);
+    transition:
+        opacity 0.65s var(--animation-ease),
+        transform 0.65s var(--animation-ease);
+}
+
+.stagger.is-visible > * {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.stagger.is-visible > *:nth-child(1) {
+    transition-delay: 0.05s;
+}
+
+.stagger.is-visible > *:nth-child(2) {
+    transition-delay: 0.1s;
+}
+
+.stagger.is-visible > *:nth-child(3) {
+    transition-delay: 0.15s;
+}
+
+.stagger.is-visible > *:nth-child(4) {
+    transition-delay: 0.2s;
+}
+
+.stagger.is-visible > *:nth-child(5) {
+    transition-delay: 0.25s;
+}
+
+.stagger.is-visible > *:nth-child(6) {
+    transition-delay: 0.3s;
+}
+
+.stagger.is-visible > *:nth-child(7) {
+    transition-delay: 0.35s;
+}
+
+.stagger.is-visible > *:nth-child(8) {
+    transition-delay: 0.4s;
+}
+
+
+/* =========================================================
+   6. CARD HOVER ANIMATIONS
+   ========================================================= */
+
+.card,
+.value-card,
+.team-card,
+.speaker-card,
+.resource-card,
+.program-card,
+.impact-card,
+.admin-card {
+    transition:
+        transform 0.35s var(--animation-ease),
+        box-shadow 0.35s var(--animation-ease),
+        border-color 0.35s var(--animation-ease);
+}
+
+.card:hover,
+.value-card:hover,
+.team-card:hover,
+.speaker-card:hover,
+.resource-card:hover,
+.program-card:hover,
+.impact-card:hover,
+.admin-card:hover {
+    transform: translateY(-6px);
+}
+
+
+/* =========================================================
+   7. CARD IMAGE ANIMATIONS
+   ========================================================= */
+
+.card-image,
+.team-card-image,
+.speaker-card-image,
+.resource-card-image,
+.program-card-image,
+.impact-card-image {
+    overflow: hidden;
+}
+
+.card-image img,
+.team-card-image img,
+.speaker-card-image img,
+.resource-card-image img,
+.program-card-image img,
+.impact-card-image img {
+    transition:
+        transform 0.65s var(--animation-ease);
+}
+
+.card:hover img,
+.team-card:hover img,
+.speaker-card:hover img,
+.resource-card:hover img,
+.program-card:hover img,
+.impact-card:hover img {
+    transform: scale(1.035);
+}
+
+
+/* =========================================================
+   8. IMAGE FRAME ANIMATIONS
+   ========================================================= */
+
+.image-frame {
+    overflow: hidden;
+}
+
+.image-frame img {
+    transition:
+        transform 0.8s var(--animation-ease);
+}
+
+.image-frame:hover img {
+    transform: scale(1.025);
+}
+
+
+.split-section-media {
+    overflow: hidden;
+}
+
+.split-section-media img {
+    transition:
+        transform 0.8s var(--animation-ease);
+}
+
+.split-section-media:hover img {
+    transform: scale(1.025);
+}
+
+
+/* =========================================================
+   9. BUTTON ANIMATIONS
+   ========================================================= */
+
+.btn {
+    position: relative;
+    overflow: hidden;
+    transition:
+        transform 0.25s var(--animation-ease),
+        box-shadow 0.25s var(--animation-ease),
+        background-color 0.25s var(--animation-ease),
+        border-color 0.25s var(--animation-ease);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 70%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.12);
+    transform: skewX(-18deg);
+    transition:
+        left 0.55s var(--animation-ease);
+    pointer-events: none;
+}
+
+.btn:hover::after {
+    left: 140%;
+}
+
+
+/* =========================================================
+   10. TEXT LINK ANIMATIONS
+   ========================================================= */
+
+.text-link {
+    transition:
+        color 0.25s ease,
+        gap 0.25s var(--animation-ease);
+}
+
+.text-link::after {
+    transition:
+        transform 0.25s var(--animation-ease);
+}
+
+
+/* =========================================================
+   11. NAVIGATION ANIMATIONS
+   ========================================================= */
+
+.desktop-navigation a {
+    position: relative;
+}
+
+.desktop-navigation a:not(.nav-cta)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -7px;
+    left: 0;
+    height: 2px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition:
+        transform 0.3s var(--animation-ease);
+}
+
+.desktop-navigation a:not(.nav-cta):hover::after,
+.desktop-navigation a:not(.nav-cta):focus-visible::after,
+.desktop-navigation a.active:not(.nav-cta)::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+.mobile-navigation {
+    transition:
+        opacity 0.3s ease,
+        visibility 0.3s ease,
+        transform 0.35s var(--animation-ease);
+}
+
+.mobile-navigation.is-open {
+    animation:
+        menuFadeIn 0.35s var(--animation-ease) both;
+}
+
+.mobile-navigation a {
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s var(--animation-ease);
+}
+
+.mobile-navigation a:hover,
+.mobile-navigation a:focus-visible {
+    transform: translateX(3px);
+}
+
+
+/* =========================================================
+   12. MOBILE MENU ICON
+   ========================================================= */
+
+.mobile-menu-toggle span {
+    transition:
+        transform 0.3s var(--animation-ease),
+        opacity 0.2s ease;
+}
+
+.mobile-menu-toggle.is-active span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.mobile-menu-toggle.is-active span:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+}
+
+.mobile-menu-toggle.is-active span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+
+/* =========================================================
+   13. FLOATING FAQ
+   ========================================================= */
+
+.floating-faq {
+    animation:
+        floatGentle 4.5s ease-in-out infinite;
+}
+
+.floating-faq:hover {
+    animation-play-state: paused;
+}
+
+.floating-faq-image-wrapper {
+    transition:
+        transform 0.35s var(--animation-ease),
+        box-shadow 0.35s var(--animation-ease);
+}
+
+.floating-faq:hover .floating-faq-image-wrapper {
+    transform: scale(1.06);
+}
+
+.floating-faq-bubble {
+    opacity: 0;
+    transform: translateX(8px);
+    transition:
+        opacity 0.3s var(--animation-ease),
+        transform 0.3s var(--animation-ease);
+}
+
+.floating-faq:hover .floating-faq-bubble,
+.floating-faq:focus-visible .floating-faq-bubble {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+/* =========================================================
+   14. HERO DECORATIVE MOTION
+   ========================================================= */
+
+.hero-decoration,
+.hero-shape,
+.decorative-circle {
+    animation:
+        floatSlow 6s ease-in-out infinite;
+}
+
+.hero-decoration:nth-child(2),
+.hero-shape:nth-child(2),
+.decorative-circle:nth-child(2) {
+    animation-delay: -2s;
+}
+
+.hero-decoration:nth-child(3),
+.hero-shape:nth-child(3),
+.decorative-circle:nth-child(3) {
+    animation-delay: -4s;
+}
+
+
+/* =========================================================
+   15. HANDWRITTEN ACCENT
+   ========================================================= */
+
+.handwritten-accent {
+    display: inline-block;
+    animation:
+        fadeUp 0.7s var(--animation-ease) 0.35s both;
+}
+
+
+/* =========================================================
+   16. SECTION HEADINGS
+   ========================================================= */
+
+.section-header .eyebrow,
+.page-hero-content .eyebrow {
+    animation:
+        fadeDown 0.6s var(--animation-ease) both;
+}
+
+.section-header .section-heading {
+    animation:
+        fadeUp 0.7s var(--animation-ease) 0.08s both;
+}
+
+.section-header .section-lead {
+    animation:
+        fadeUp 0.7s var(--animation-ease) 0.16s both;
+}
+
+
+/* =========================================================
+   17. TIMELINE ANIMATIONS
+   ========================================================= */
+
+.timeline-item {
+    opacity: 0;
+    transform: translateY(24px);
+    transition:
+        opacity 0.65s var(--animation-ease),
+        transform 0.65s var(--animation-ease);
+}
+
+.timeline.is-visible .timeline-item {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.timeline.is-visible .timeline-item:nth-child(1) {
+    transition-delay: 0.05s;
+}
+
+.timeline.is-visible .timeline-item:nth-child(2) {
+    transition-delay: 0.12s;
+}
+
+.timeline.is-visible .timeline-item:nth-child(3) {
+    transition-delay: 0.19s;
+}
+
+.timeline.is-visible .timeline-item:nth-child(4) {
+    transition-delay: 0.26s;
+}
+
+.timeline.is-visible .timeline-item:nth-child(5) {
+    transition-delay: 0.33s;
+}
+
+.timeline.is-visible .timeline-item:nth-child(6) {
+    transition-delay: 0.4s;
+}
+
+.timeline-number {
+    transition:
+        transform 0.35s var(--animation-ease),
+        background-color 0.35s ease;
+}
+
+.timeline-item:hover .timeline-number {
+    transform: scale(1.06);
+}
+
+
+/* =========================================================
+   18. FAQ ANIMATIONS
+   ========================================================= */
+
+.faq-item {
+    transition:
+        border-color 0.3s ease,
+        background-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.faq-item summary {
+    transition:
+        color 0.25s ease;
+}
+
+.faq-item summary::after {
+    transition:
+        transform 0.3s var(--animation-ease);
+}
+
+.faq-item[open] summary::after {
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    animation:
+        fadeIn 0.3s ease both;
+}
+
+
+/* =========================================================
+   19. FORM ANIMATIONS
+   ========================================================= */
+
+.form-input,
+.form-select,
+.form-textarea {
+    transition:
+        border-color 0.25s ease,
+        box-shadow 0.25s ease,
+        background-color 0.25s ease;
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+    transform: translateY(-1px);
+}
+
+.form-group {
+    transition:
+        opacity 0.4s ease,
+        transform 0.4s var(--animation-ease);
+}
+
+
+/* =========================================================
+   20. SOCIAL ICON ANIMATIONS
+   ========================================================= */
+
+.social-link {
+    transition:
+        transform 0.3s var(--animation-ease),
+        background-color 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.social-link:hover,
+.social-link:focus-visible {
+    transform: translateY(-4px);
+}
+
+
+/* =========================================================
+   21. FOOTER CTA
+   ========================================================= */
+
+.footer-cta {
+    transition:
+        background-color 0.35s ease,
+        transform 0.35s var(--animation-ease),
+        border-color 0.35s ease;
+}
+
+.footer-cta-arrow {
+    transition:
+        transform 0.35s var(--animation-ease);
+}
+
+.footer-cta:hover .footer-cta-arrow {
+    transform: translateX(5px);
+}
+
+
+/* =========================================================
+   22. VALUE CARDS
+   ========================================================= */
+
+.value-number {
+    transition:
+        transform 0.35s var(--animation-ease);
+}
+
+.value-card:hover .value-number {
+    transform: translateY(-3px);
+}
+
+
+/* =========================================================
+   23. ADMIN DASHBOARD
+   ========================================================= */
+
+.admin-stat {
+    transition:
+        transform 0.3s var(--animation-ease),
+        box-shadow 0.3s var(--animation-ease);
+}
+
+.admin-stat:hover {
+    transform: translateY(-4px);
+}
+
+.admin-card-icon {
+    transition:
+        transform 0.3s var(--animation-ease);
+}
+
+.admin-card:hover .admin-card-icon {
+    transform: scale(1.05);
+}
+
+
+/* =========================================================
+   24. EMPTY / COMING SOON
+   ========================================================= */
+
+.coming-soon-badge {
+    animation:
+        pulseSoft 3.5s ease-in-out infinite;
+}
+
+.empty-state-icon {
+    animation:
+        floatGentle 4s ease-in-out infinite;
+}
+
+
+/* =========================================================
+   25. IMAGE LOADING
+   ========================================================= */
+
+img {
+    transition:
+        opacity 0.35s ease;
+}
+
+img.lazy-image {
+    opacity: 0;
+}
+
+img.lazy-image.loaded {
+    opacity: 1;
+}
+
+
+/* =========================================================
+   26. PAGE SECTION REVEAL
+   ========================================================= */
+
+.section,
+.story-section,
+.final-cta-section,
+.founder-message-section {
+    position: relative;
+}
+
+
+/* =========================================================
+   27. ACCESSIBILITY — REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    body,
+    .hero-content,
+    .page-hero-content,
+    .hero-media,
+    .reveal,
+    .reveal-up,
+    .reveal-down,
+    .reveal-left,
+    .reveal-right,
+    .reveal-scale,
+    .stagger > *,
+    .timeline-item {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+/* =========================================================
+   28. TOUCH DEVICE SAFETY
+   ========================================================= */
+
+@media (hover: none) and (pointer: coarse) {
+
+    .floating-faq {
+        animation: none;
+    }
+
+    .floating-faq-bubble {
+        opacity: 1;
+        transform: none;
+    }
+
+    .card:hover,
+    .value-card:hover,
+    .team-card:hover,
+    .speaker-card:hover,
+    .resource-card:hover,
+    .program-card:hover,
+    .impact-card:hover,
+    .admin-card:hover,
+    .btn:hover,
+    .social-link:hover {
+        transform: none;
+    }
+
+    .card:hover img,
+    .team-card:hover img,
+    .speaker-card:hover img,
+    .resource-card:hover img,
+    .program-card:hover img,
+    .impact-card:hover img {
+        transform: none;
+    }
+}
+
+
+/* =========================================================
+   29. PERFORMANCE SAFETY
+   ========================================================= */
+
+.reveal,
+.reveal-up,
+.reveal-down,
+.reveal-left,
+.reveal-right,
+.reveal-scale,
+.stagger > *,
+.timeline-item {
+    will-change: opacity, transform;
+}
+
+.card,
+.value-card,
+.team-card,
+.speaker-card,
+.resource-card,
+.program-card,
+.impact-card {
+    will-change: transform;
+}
+
+
+/* =========================================================
+   30. ANIMATION END
+   ========================================================= */

@@ -1,0 +1,140 @@
+{
+    "team": {
+        "title": "Meet the Girls' Unplugged Team",
+        "intro": "Girls' Unplugged is built by girls who care about creating a space where other girls can feel seen, heard, supported, and free to grow.",
+        "structure": "Growing team"
+    },
+    "members": [
+        {
+            "id": "motunrayo-linda-idowu",
+            "name": "Motunrayo Linda Idowu",
+            "role": "Founder & Community Director",
+            "status": "active",
+            "image": "assets/images/founder/founder-placeholder.jpg",
+            "bio": "Motunrayo founded Girls' Unplugged to create the kind of space she believed girls could use: a place for honest conversations, friendship, growth, confidence, and fun.",
+            "responsibilities": [
+                "Community direction",
+                "Vision and strategy",
+                "Community conversations",
+                "Program development",
+                "Partnerships and collaborations",
+                "Creating a welcoming experience for Bloomies"
+            ],
+            "profileLink": "about.html"
+        },
+        {
+            "id": "community-support",
+            "name": "Community Support",
+            "role": "Community Support",
+            "status": "growing",
+            "image": "assets/images/team/team-member-placeholder-01.jpg",
+            "bio": "A future community support role focused on helping Bloomies feel welcomed, supported, and connected within the Circle.",
+            "responsibilities": [
+                "Welcoming new Bloomies",
+                "Supporting community conversations",
+                "Helping maintain a respectful community environment",
+                "Checking in with members",
+                "Supporting community activities"
+            ],
+            "profileLink": null
+        },
+        {
+            "id": "programs-activities",
+            "name": "Programs & Activities",
+            "role": "Programs & Activities",
+            "status": "growing",
+            "image": "assets/images/team/team-member-placeholder-02.jpg",
+            "bio": "A future role focused on helping shape activities, conversations, games, sessions, and experiences that keep the Circle meaningful and engaging.",
+            "responsibilities": [
+                "Planning community activities",
+                "Supporting weekly vibes",
+                "Helping coordinate guest conversations",
+                "Developing girl-led activities",
+                "Supporting special initiatives"
+            ],
+            "profileLink": null
+        }
+    ],
+    "howWeWork": [
+        {
+            "number": "01",
+            "title": "We listen.",
+            "description": "The girls are at the centre of the Circle. We pay attention to what they are saying, asking for, experiencing, and creating."
+        },
+        {
+            "number": "02",
+            "title": "We create together.",
+            "description": "Girls' Unplugged is not built around one person's ideas. Community conversations, topics, activities, and experiences can grow from what Bloomies want and need."
+        },
+        {
+            "number": "03",
+            "title": "We keep learning.",
+            "description": "The Circle is growing too. We learn from our experiences, listen to feedback, and keep finding better ways to serve the community."
+        }
+    ],
+    "values": [
+        {
+            "number": "01",
+            "title": "Respect",
+            "description": "Every girl deserves to be treated with dignity and consideration."
+        },
+        {
+            "number": "02",
+            "title": "Kindness",
+            "description": "We choose empathy, encouragement, and care in how we show up for one another."
+        },
+        {
+            "number": "03",
+            "title": "Creativity",
+            "description": "We make room for new ideas, different perspectives, and girl-led ways of doing things."
+        },
+        {
+            "number": "04",
+            "title": "Accountability",
+            "description": "We take responsibility for how our actions affect the community."
+        },
+        {
+            "number": "05",
+            "title": "Sisterhood",
+            "description": "We believe girls should have spaces where they can connect and remind one another that they are not alone."
+        },
+        {
+            "number": "06",
+            "title": "Growth",
+            "description": "We are allowed to learn, change, make mistakes, try again, and become."
+        }
+    ],
+    "futureRoles": [
+        {
+            "role": "Community Support",
+            "focus": "Member experience, welcoming, check-ins, and community care."
+        },
+        {
+            "role": "Programs & Activities",
+            "focus": "Weekly activities, conversations, games, calls, and special initiatives."
+        },
+        {
+            "role": "Communications",
+            "focus": "Community updates, storytelling, social media, and communications."
+        },
+        {
+            "role": "Partnerships",
+            "focus": "Relationships with organisations, speakers, collaborators, and opportunities."
+        },
+        {
+            "role": "Creative & Media",
+            "focus": "Visual storytelling, design, photography, video, and digital content."
+        }
+    ],
+    "founderNote": {
+        "heading": "A note from the founder",
+        "message": "I wanted to create the kind of space I knew girls could use. Not a place where we have to pretend everything is perfect, but somewhere we can talk, laugh, learn, ask questions, make friends, and grow together. Girls' Unplugged started with what I had, and I am excited about what we can keep building together.",
+        "signature": "With love, Motunrayo Linda Idowu"
+    },
+    "teamInvitation": {
+        "heading": "Want to build with us?",
+        "description": "Girls' Unplugged is growing, and there will be room for more girls to bring their skills, ideas, creativity, and care to the work.",
+        "action": "Get involved",
+        "url": "get-involved.html"
+    }
+}

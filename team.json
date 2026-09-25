@@ -22,7 +22,6 @@
       }
     }
   ],
-
   "teamIntro": {
     "label": "Our people",
     "title": "A community built with intention.",
@@ -31,7 +30,6 @@
       "We are growing this community carefully, keeping the girls at the heart of what we do and creating room for more people to contribute as the circle grows."
     ]
   },
-
   "howWeWork": [
     {
       "number": "01",
@@ -54,7 +52,6 @@
       "description": "We are still learning, improving, and becoming better as a community."
     }
   ],
-
   "founderSection": {
     "label": "Founder",
     "name": "Motunrayo Linda Idowu",
@@ -68,7 +65,6 @@
     ],
     "quote": "A space does not have to start big to matter. Sometimes, it just has to start."
   },
-
   "joinTeam": {
     "label": "Want to contribute?",
     "title": "There is room for your voice too.",

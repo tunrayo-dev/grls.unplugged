@@ -1,40 +1,51 @@
-document.addEventListener("DOMContentLoaded", function () {
+/* ========================================
+   GIRLS UNPLUGGED
+   FAQ JAVASCRIPT
+======================================== */
 
-  const faqItems = document.querySelectorAll(".faq-item");
+document.addEventListener(
+    "DOMContentLoaded",
+    () => {
 
-  if (!faqItems.length) return;
+        const faqItems =
+            document.querySelectorAll(
+                ".faq-item"
+            );
 
-  faqItems.forEach(function (item) {
+        if (!faqItems.length) {
+            return;
+        }
 
-    const question = item.querySelector(".faq-question");
-    const answer = item.querySelector(".faq-answer");
+        faqItems.forEach(
+            (item) => {
 
-    if (!question || !answer) return;
+                item.addEventListener(
+                    "toggle",
+                    () => {
 
-    // Start closed
-    answer.hidden = true;
-    question.setAttribute("aria-expanded", "false");
+                        if (!item.open) {
+                            return;
+                        }
 
-    question.addEventListener("click", function () {
+                        faqItems.forEach(
+                            (otherItem) => {
 
-      const isOpen = item.classList.contains("active");
+                                if (
+                                    otherItem !== item &&
+                                    otherItem.open
+                                ) {
+                                    otherItem.open =
+                                        false;
+                                }
 
-      if (isOpen) {
+                            }
+                        );
 
-        item.classList.remove("active");
-        question.setAttribute("aria-expanded", "false");
-        answer.hidden = true;
+                    }
+                );
 
-      } else {
+            }
+        );
 
-        item.classList.add("active");
-        question.setAttribute("aria-expanded", "true");
-        answer.hidden = false;
-
-      }
-
-    });
-
-  });
-
-});
+    }
+);

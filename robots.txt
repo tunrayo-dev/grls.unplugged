@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tunrayo-dev.github.io/grls.unplugged/sitemap.xml

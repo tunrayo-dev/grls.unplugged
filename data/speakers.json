@@ -1,0 +1,147 @@
+{
+    "speakers": {
+        "title": "The Voices We Bring In",
+        "intro": "Real people. Real stories. Real conversations. We invite people with experiences, knowledge, and stories that can help Bloomies think, learn, ask questions, and see new possibilities.",
+        "status": "Growing speaker community"
+    },
+    "featuredVoices": [
+        {
+            "id": "speaker-01",
+            "name": "Speaker Name",
+            "role": "Guest Speaker",
+            "status": "placeholder",
+            "image": "assets/images/speakers/speaker-placeholder-01.jpg",
+            "description": "A placeholder profile for a future Girls' Unplugged guest speaker. Speaker details will be added when the speaker directory is connected to real profiles.",
+            "topics": []
+        },
+        {
+            "id": "speaker-02",
+            "name": "Speaker Name",
+            "role": "Guest Speaker",
+            "status": "placeholder",
+            "image": "assets/images/speakers/speaker-placeholder-02.jpg",
+            "description": "A placeholder profile for a future Girls' Unplugged guest speaker. Speaker details will be added when the speaker directory is connected to real profiles.",
+            "topics": []
+        },
+        {
+            "id": "speaker-03",
+            "name": "Speaker Name",
+            "role": "Guest Speaker",
+            "status": "placeholder",
+            "image": "assets/images/speakers/speaker-placeholder-03.jpg",
+            "description": "A placeholder profile for a future Girls' Unplugged guest speaker. Speaker details will be added when the speaker directory is connected to real profiles.",
+            "topics": []
+        }
+    ],
+    "whatWeLookFor": [
+        {
+            "title": "Experience",
+            "description": "People who can bring real experiences, knowledge, lessons, skills, or perspectives to the conversation."
+        },
+        {
+            "title": "Honesty",
+            "description": "We value conversations that feel human. Speakers do not need to have every answer or a perfect story."
+        },
+        {
+            "title": "Connection",
+            "description": "The best conversations leave girls feeling seen, encouraged, curious, or ready to take their next step."
+        }
+    ],
+    "topicAreas": [
+        {
+            "id": "confidence-identity",
+            "title": "Confidence & Identity",
+            "description": "Conversations about knowing yourself, confidence, identity, self-expression, and becoming."
+        },
+        {
+            "id": "education-careers",
+            "title": "Education & Careers",
+            "description": "School, career exploration, opportunities, navigating choices, and preparing for the future."
+        },
+        {
+            "id": "leadership-voice",
+            "title": "Leadership & Voice",
+            "description": "Finding your voice, leading with purpose, speaking up, and making an impact."
+        },
+        {
+            "id": "wellness-life",
+            "title": "Wellness & Life",
+            "description": "Emotional wellness, relationships, everyday life, personal growth, and honest conversations."
+        },
+        {
+            "id": "technology-creativity",
+            "title": "Technology & Creativity",
+            "description": "Technology, digital skills, creativity, innovation, and exploring what girls can build."
+        },
+        {
+            "id": "girls-questions",
+            "title": "Anything Girls Want to Ask",
+            "description": "Sometimes the most important topic is simply the question a girl has been wanting to ask."
+        }
+    ],
+    "session": {
+        "name": "Guest Conversation",
+        "frequency": "First Friday of every month",
+        "day": "Friday",
+        "time": "7:00–8:30 PM WAT",
+        "platform": "Google Meet",
+        "format": "Online conversation",
+        "topicSelection": "Topics are shaped by the girls and the conversations they want to have.",
+        "structure": [
+            {
+                "time": "7:00–7:15 PM",
+                "stage": "Arrive",
+                "description": "Girls join the session, settle in, and get introduced to the conversation."
+            },
+            {
+                "time": "7:15–8:15 PM",
+                "stage": "Connect, Learn & Talk",
+                "description": "The main conversation, stories, questions, lessons, and shared experiences."
+            },
+            {
+                "time": "8:15–8:30 PM",
+                "stage": "Ask",
+                "description": "Bloomies get space to ask questions and close out the session together."
+            }
+        ]
+    },
+    "forSpeakers": [
+        {
+            "number": "01",
+            "title": "Bring your experience",
+            "description": "Come with the lessons, knowledge, stories, and experiences that can add something meaningful to the conversation."
+        },
+        {
+            "number": "02",
+            "title": "Make room for questions",
+            "description": "The girls are not just an audience. Their questions, curiosity, and experiences are part of the conversation."
+        },
+        {
+            "number": "03",
+            "title": "Leave something behind",
+            "description": "We hope every conversation leaves Bloomies with something to think about, try, remember, or carry forward."
+        }
+    ],
+    "speakerInterest": {
+        "heading": "Want to speak with the Bloomies?",
+        "description": "If you have a story, skill, experience, or perspective you think girls would benefit from, we would love to hear from you.",
+        "action": "Tell us about yourself",
+        "url": "contact.html",
+        "subject": "speaking"
+    },
+    "futureDirectory": {
+        "enabled": false,
+        "description": "The speaker directory is currently prepared as structured data for future profiles and dynamic content.",
+        "plannedFields": [
+            "Name",
+            "Role",
+            "Bio",
+            "Profile image",
+            "Topic areas",
+            "Session history",
+            "Social links",
+            "Website",
+            "Speaker status"
+        ]
+    }
+}

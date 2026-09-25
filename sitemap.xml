@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+>
+
+    <!-- HOMEPAGE -->
+
+    <url>
+        <loc>https://tunrayo-dev.github.io/grls.unplugged/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+
+
+    <!-- ABOUT -->
+
+    <url>
+        <loc>https://tunrayo-dev.github.io/grls.unplugged/about.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+
+
+    <!-- THE CIRCLE -->
+
+    <url>
+        <loc>https://tunrayo-dev.github.io/grls.unplugged/circle.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+
+
+    <!-- PROGRAMS -->
+
+    <url>
+        <loc>https://tunrayo-dev.github.io/grls.unplugged/programs.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+
+
+    <!-- SPEAKERS -->
+
+    <url>
+        <loc>https://tunrayo-dev.github.io/grls.unplugged/speakers.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+
+    <!-- TEAM -->
+
+    <url>
+        <loc>https://tunrayo-dev.github.io/grls.unplugged/team.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+
+    <!-- IMPACT -->
+
+    <url>
+        <loc>https://tunrayo-dev.github.io/grls.unplugged/impact.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+
+    <!-- RESOURCES -->
+
+    <url>
+        <loc>https://tunrayo-dev.github.io/grls.unplugged/resources.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+
+    <!-- GET INVOLVED -->
+
+    <url>
+        <loc>https://tunrayo-dev.github.io/grls.unplugged/get-involved.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+
+
+    <!-- FAQ -->
+
+    <url>
+        <loc>https://tunrayo-dev.github.io/grls.unplugged/faq.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+
+    <!-- CONTACT -->
+
+    <url>
+        <loc>https://tunrayo-dev.github.io/grls.unplugged/contact.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+
+
+    <!-- PRIVACY -->
+
+    <url>
+        <loc>https://tunrayo-dev.github.io/grls.unplugged/privacy.html</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
+    </url>
+
+</urlset>

@@ -1,471 +1,565 @@
-/* ========================================
-   GIRLS UNPLUGGED
-   MAIN JAVASCRIPT
-======================================== */
+document.addEventListener(
+    "DOMContentLoaded",
+    () => {
 
-document.addEventListener("DOMContentLoaded", () => {
+        /* ==================================
+           REDUCED MOTION
+        ================================== */
 
-  /* ======================================
-     REDUCED MOTION
-  ====================================== */
+        const prefersReducedMotion =
+            window.matchMedia(
+                "(prefers-reduced-motion: reduce)"
+            ).matches;
 
-  const prefersReducedMotion =
-    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+        /* ==================================
+           SCROLL REVEAL
+        ================================== */
 
-  /* ======================================
-     SCROLL REVEAL
-  ====================================== */
+        const revealElements =
+            document.querySelectorAll(
+                ".reveal, " +
+                ".fade-up, " +
+                ".fade-in, " +
+                ".slide-up"
+            );
 
-  const revealElements = document.querySelectorAll(
-    ".reveal, .reveal-left, .reveal-right, .reveal-scale, .stagger, .timeline-item, .section-transition"
-  );
 
-  if (prefersReducedMotion) {
+        if (
+            !prefersReducedMotion &&
+            revealElements.length
+        ) {
 
-    revealElements.forEach((element) => {
-      element.classList.add("active");
-    });
+            const revealObserver =
+                new IntersectionObserver(
+                    (entries) => {
 
-  } else {
+                        entries.forEach(
+                            (entry) => {
 
-    const revealObserver = new IntersectionObserver(
-      (entries, observer) => {
+                                if (
+                                    entry.isIntersecting
+                                ) {
 
-        entries.forEach((entry) => {
+                                    entry.target.classList.add(
+                                        "is-visible"
+                                    );
 
-          if (entry.isIntersecting) {
+                                    revealObserver.unobserve(
+                                        entry.target
+                                    );
 
-            entry.target.classList.add("active");
+                                }
 
-            observer.unobserve(entry.target);
-          }
+                            }
+                        );
 
-        });
+                    },
+                    {
+                        threshold: 0.12
+                    }
+                );
 
-      },
-      {
-        threshold: 0.12,
-        rootMargin: "0px 0px -50px 0px"
-      }
-    );
 
+            revealElements.forEach(
+                (element) => {
 
-    revealElements.forEach((element) => {
-      revealObserver.observe(element);
-    });
+                    revealObserver.observe(
+                        element
+                    );
 
-  }
+                }
+            );
 
+        } else {
 
-  /* ======================================
-     STAT COUNTERS
-  ====================================== */
+            revealElements.forEach(
+                (element) => {
 
-  const statNumbers = document.querySelectorAll(
-    ".stat-number[data-target]"
-  );
+                    element.classList.add(
+                        "is-visible"
+                    );
 
+                }
+            );
 
-  function animateCounter(element) {
+        }
 
-    const target = Number(element.dataset.target);
 
-    if (Number.isNaN(target)) {
-      return;
-    }
+        /* ==================================
+           STAT COUNTERS
+        ================================== */
 
+        const counters =
+            document.querySelectorAll(
+                "[data-count]"
+            );
 
-    /* Already counted */
 
-    if (element.dataset.counted === "true") {
-      return;
-    }
+        function animateCounter(
+            element
+        ) {
 
+            const target =
+                Number(
+                    element.dataset.count
+                );
 
-    element.dataset.counted = "true";
 
+            if (
+                Number.isNaN(target)
+            ) {
+                return;
+            }
 
-    /* Reduced motion */
 
-    if (prefersReducedMotion) {
+            if (
+                prefersReducedMotion
+            ) {
 
-      element.textContent = formatNumber(target);
+                element.textContent =
+                    target.toLocaleString();
 
-      element.classList.add("counted");
+                return;
 
-      return;
-    }
+            }
 
 
-    const duration = 1800;
-    const startTime = performance.now();
+            const duration =
+                1200;
 
+            const startTime =
+                performance.now();
 
-    function updateCounter(currentTime) {
 
-      const elapsed = currentTime - startTime;
+            function updateCounter(
+                currentTime
+            ) {
 
-      const progress = Math.min(
-        elapsed / duration,
-        1
-      );
+                const elapsed =
+                    currentTime -
+                    startTime;
 
 
-      /*
-        Ease-out effect.
+                const progress =
+                    Math.min(
+                        elapsed / duration,
+                        1
+                    );
 
-        Starts quickly and slows down
-        as it reaches the final number.
-      */
 
-      const easedProgress =
-        1 - Math.pow(1 - progress, 3);
+                const eased =
+                    1 -
+                    Math.pow(
+                        1 - progress,
+                        3
+                    );
 
 
-      const currentValue =
-        Math.floor(target * easedProgress);
+                const value =
+                    Math.floor(
+                        target * eased
+                    );
 
 
-      element.textContent =
-        formatNumber(currentValue);
+                element.textContent =
+                    value.toLocaleString();
 
 
-      if (progress < 1) {
+                if (
+                    progress < 1
+                ) {
 
-        requestAnimationFrame(updateCounter);
+                    requestAnimationFrame(
+                        updateCounter
+                    );
 
-      } else {
+                } else {
 
-        element.textContent =
-          formatNumber(target);
+                    element.textContent =
+                        target.toLocaleString();
 
-        element.classList.add("counted");
-      }
+                }
 
-    }
+            }
 
 
-    requestAnimationFrame(updateCounter);
-  }
+            requestAnimationFrame(
+                updateCounter
+            );
 
+        }
 
-  function formatNumber(number) {
 
-    return new Intl.NumberFormat("en-US").format(number);
+        if (
+            counters.length
+        ) {
 
-  }
+            const counterObserver =
+                new IntersectionObserver(
+                    (entries) => {
 
+                        entries.forEach(
+                            (entry) => {
 
-  if (statNumbers.length > 0) {
+                                if (
+                                    entry.isIntersecting
+                                ) {
 
-    if (prefersReducedMotion) {
+                                    animateCounter(
+                                        entry.target
+                                    );
 
-      statNumbers.forEach((element) => {
-        animateCounter(element);
-      });
+                                    counterObserver.unobserve(
+                                        entry.target
+                                    );
 
-    } else {
+                                }
 
-      const counterObserver =
-        new IntersectionObserver(
-          (entries, observer) => {
+                            }
+                        );
 
-            entries.forEach((entry) => {
+                    },
+                    {
+                        threshold: 0.5
+                    }
+                );
 
-              if (entry.isIntersecting) {
 
-                animateCounter(entry.target);
+            counters.forEach(
+                (counter) => {
 
-                observer.unobserve(entry.target);
-              }
+                    counterObserver.observe(
+                        counter
+                    );
 
-            });
+                }
+            );
 
-          },
-          {
-            threshold: 0.5
-          }
+        }
+
+
+        /* ==================================
+           CURRENT YEAR
+        ================================== */
+
+        const yearElements =
+            document.querySelectorAll(
+                "[data-year]"
+            );
+
+
+        const currentYear =
+            new Date().getFullYear();
+
+
+        yearElements.forEach(
+            (element) => {
+
+                element.textContent =
+                    currentYear;
+
+            }
         );
 
 
-      statNumbers.forEach((element) => {
-        counterObserver.observe(element);
-      });
+        /* ==================================
+           SMOOTH INTERNAL LINKS
+        ================================== */
 
-    }
-
-  }
-
-
-  /* ======================================
-     SMOOTH INTERNAL LINKS
-  ====================================== */
-
-  const internalLinks =
-    document.querySelectorAll('a[href^="#"]');
+        const internalLinks =
+            document.querySelectorAll(
+                'a[href^="#"]'
+            );
 
 
-  internalLinks.forEach((link) => {
+        internalLinks.forEach(
+            (link) => {
 
-    link.addEventListener("click", (event) => {
+                link.addEventListener(
+                    "click",
+                    (event) => {
 
-      const targetId =
-        link.getAttribute("href");
-
-
-      if (
-        !targetId ||
-        targetId === "#"
-      ) {
-        return;
-      }
+                        const targetId =
+                            link.getAttribute(
+                                "href"
+                            );
 
 
-      const target =
-        document.querySelector(targetId);
+                        if (
+                            !targetId ||
+                            targetId === "#"
+                        ) {
+                            return;
+                        }
 
 
-      if (!target) {
-        return;
-      }
+                        const target =
+                            document.querySelector(
+                                targetId
+                            );
 
 
-      event.preventDefault();
+                        if (!target) {
+                            return;
+                        }
 
 
-      target.scrollIntoView({
-        behavior:
-          prefersReducedMotion
-            ? "auto"
-            : "smooth",
-        block: "start"
-      });
-
-    });
-
-  });
+                        event.preventDefault();
 
 
-  /* ======================================
-     CURRENT YEAR
-  ====================================== */
+                        target.scrollIntoView(
+                            {
+                                behavior:
+                                    prefersReducedMotion
+                                        ? "auto"
+                                        : "smooth",
+                                block: "start"
+                            }
+                        );
 
-  const yearElements =
-    document.querySelectorAll("[data-current-year]");
+                    }
+                );
 
-
-  yearElements.forEach((element) => {
-
-    element.textContent =
-      new Date().getFullYear();
-
-  });
-
-
-  /* ======================================
-     IMAGE LOAD HANDLING
-  ====================================== */
-
-  const images =
-    document.querySelectorAll("img");
+            }
+        );
 
 
-  images.forEach((image) => {
+        /* ==================================
+           EXTERNAL LINKS
+        ================================== */
 
-    if (image.complete) {
+        const externalLinks =
+            document.querySelectorAll(
+                'a[target="_blank"]'
+            );
 
-      image.classList.add("loaded");
 
-    } else {
+        externalLinks.forEach(
+            (link) => {
 
-      image.addEventListener(
-        "load",
-        () => {
-          image.classList.add("loaded");
-        },
-        {
-          once: true
+                link.setAttribute(
+                    "rel",
+                    "noopener noreferrer"
+                );
+
+            }
+        );
+
+
+        /* ==================================
+           IMAGE HANDLING
+        ================================== */
+
+        const images =
+            document.querySelectorAll(
+                "img"
+            );
+
+
+        images.forEach(
+            (image) => {
+
+                image.addEventListener(
+                    "load",
+                    () => {
+
+                        image.classList.add(
+                            "loaded"
+                        );
+
+                    }
+                );
+
+
+                image.addEventListener(
+                    "error",
+                    () => {
+
+                        image.classList.add(
+                            "image-error"
+                        );
+
+                    }
+                );
+
+
+                if (
+                    image.complete
+                ) {
+
+                    image.classList.add(
+                        "loaded"
+                    );
+
+                }
+
+            }
+        );
+
+
+        /* ==================================
+           BACK TO TOP
+        ================================== */
+
+        const backToTop =
+            document.querySelector(
+                ".back-to-top"
+            );
+
+
+        if (
+            backToTop
+        ) {
+
+            function updateBackToTop() {
+
+                if (
+                    window.scrollY > 500
+                ) {
+
+                    backToTop.classList.add(
+                        "visible"
+                    );
+
+                } else {
+
+                    backToTop.classList.remove(
+                        "visible"
+                    );
+
+                }
+
+            }
+
+
+            window.addEventListener(
+                "scroll",
+                updateBackToTop,
+                {
+                    passive: true
+                }
+            );
+
+
+            updateBackToTop();
+
+
+            backToTop.addEventListener(
+                "click",
+                (event) => {
+
+                    event.preventDefault();
+
+
+                    window.scrollTo(
+                        {
+                            top: 0,
+                            behavior:
+                                prefersReducedMotion
+                                    ? "auto"
+                                    : "smooth"
+                        }
+                    );
+
+                }
+            );
+
         }
-      );
+
+
+        /* ==================================
+           IMPACT STATS
+        ================================== */
+
+        loadImpactStats();
 
     }
-
-  });
-
-
-  /* ======================================
-     EXTERNAL LINKS
-  ====================================== */
-
-  const externalLinks =
-    document.querySelectorAll(
-      'a[href^="http"]'
-    );
+);
 
 
-  externalLinks.forEach((link) => {
+/* ======================================
+   LOAD IMPACT DATA
+====================================== */
 
-    const currentHost =
-      window.location.hostname;
+async function loadImpactStats() {
+
+    const statElements =
+        document.querySelectorAll(
+            "[data-impact]"
+        );
+
+
+    if (
+        !statElements.length
+    ) {
+        return;
+    }
 
 
     try {
 
-      const linkUrl =
-        new URL(link.href);
+        const response =
+            await fetch(
+                "impact.json"
+            );
 
 
-      if (
-        linkUrl.hostname !== currentHost
-      ) {
+        if (
+            !response.ok
+        ) {
 
-        link.setAttribute(
-          "target",
-          "_blank"
+            throw new Error(
+                "Unable to load impact data."
+            );
+
+        }
+
+
+        const data =
+            await response.json();
+
+
+        statElements.forEach(
+            (element) => {
+
+                const key =
+                    element.dataset.impact;
+
+
+                if (
+                    !key
+                ) {
+                    return;
+                }
+
+
+                if (
+                    Object.prototype.hasOwnProperty.call(
+                        data,
+                        key
+                    )
+                ) {
+
+                    element.textContent =
+                        data[key];
+
+                }
+
+            }
         );
 
-        link.setAttribute(
-          "rel",
-          "noopener noreferrer"
-        );
-
-      }
 
     } catch (error) {
 
-      /* Ignore invalid URLs */
+        console.error(
+            "Impact data error:",
+            error
+        );
 
     }
 
-  });
-
-
-  /* ======================================
-     BACK TO TOP
-  ====================================== */
-
-  const backToTop =
-    document.querySelector(".back-to-top");
-
-
-  if (backToTop) {
-
-    window.addEventListener(
-      "scroll",
-      () => {
-
-        if (window.scrollY > 600) {
-
-          backToTop.classList.add("show");
-
-        } else {
-
-          backToTop.classList.remove("show");
-
-        }
-
-      },
-      {
-        passive: true
-      }
-    );
-
-
-    backToTop.addEventListener(
-      "click",
-      () => {
-
-        window.scrollTo({
-          top: 0,
-          behavior:
-            prefersReducedMotion
-              ? "auto"
-              : "smooth"
-        });
-
-      }
-    );
-
-  }
-
-});
-
-
-
-async function loadImpactStats() {
-  const statsContainer = document.getElementById("impact-stats");
-
-  if (!statsContainer) return;
-
-  try {
-    const response = await fetch("impact.json");
-
-    if (!response.ok) {
-      throw new Error("Could not load impact data.");
-    }
-
-    const data = await response.json();
-
-    if (!data.stats || !Array.isArray(data.stats)) {
-      throw new Error("Impact data is not in the expected format.");
-    }
-
-    const statElements = document.querySelectorAll("[data-stat]");
-
-    statElements.forEach((element) => {
-      const statId = element.dataset.stat;
-
-      const stat = data.stats.find((item) => {
-        return item.label
-          .toLowerCase()
-          .replace(/\s+/g, "-") === statId;
-      });
-
-      if (!stat) return;
-
-      const target = Number(stat.value);
-
-      if (!Number.isFinite(target) || target < 0) {
-        element.textContent = "0";
-        return;
-      }
-
-      element.dataset.target = target;
-      element.textContent = "0";
-
-      const duration = 1600;
-      const startTime = performance.now();
-
-      function animateCounter(currentTime) {
-        const elapsed = currentTime - startTime;
-        const progress = Math.min(elapsed / duration, 1);
-
-        const easedProgress = 1 - Math.pow(1 - progress, 3);
-        const currentValue = Math.floor(target * easedProgress);
-
-        element.textContent = currentValue.toLocaleString();
-
-        if (progress < 1) {
-          requestAnimationFrame(animateCounter);
-        } else {
-          element.textContent = target.toLocaleString();
-        }
-      }
-
-      requestAnimationFrame(animateCounter);
-    });
-
-    const updatedElement = document.getElementById("impact-last-updated");
-
-    if (updatedElement && data.lastUpdated) {
-      updatedElement.textContent =
-        `Impact data last updated: ${data.lastUpdated}`;
-    }
-
-  } catch (error) {
-    console.error("Impact data could not be loaded:", error);
-  }
 }
 
-loadImpactStats();
+
+/* designed by Motunrayo Linda Idowu */

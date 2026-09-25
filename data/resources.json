@@ -1,0 +1,182 @@
+{
+    "resources": {
+        "title": "Things That Can Help You Bloom",
+        "intro": "Sometimes, the next step starts with finding the right information. This space is being built to help Bloomies discover useful opportunities, learning materials, and resources for their journey.",
+        "status": "Growing resource library"
+    },
+    "categories": [
+        {
+            "id": "opportunities",
+            "title": "Opportunities",
+            "description": "Useful opportunities that can help girls learn, grow, connect, and explore what is possible.",
+            "icon": "opportunity",
+            "items": [
+                {
+                    "id": "scholarships",
+                    "title": "Scholarships",
+                    "description": "Scholarship opportunities and funding information for girls and young people.",
+                    "status": "coming-soon",
+                    "link": null
+                },
+                {
+                    "id": "youth-girls-programs",
+                    "title": "Youth & Girls' Programs",
+                    "description": "Programs, initiatives, and communities created to support girls and young people.",
+                    "status": "coming-soon",
+                    "link": null
+                },
+                {
+                    "id": "fellowships-challenges",
+                    "title": "Fellowships & Challenges",
+                    "description": "Fellowships, competitions, challenges, and other opportunities to learn and participate.",
+                    "status": "coming-soon",
+                    "link": null
+                }
+            ]
+        },
+        {
+            "id": "learning",
+            "title": "Learning",
+            "description": "Resources that can help Bloomies build skills, explore interests, and keep learning.",
+            "icon": "learning",
+            "items": [
+                {
+                    "id": "technology",
+                    "title": "Technology",
+                    "description": "Beginner-friendly resources for exploring technology, digital skills, and creativity.",
+                    "status": "coming-soon",
+                    "link": null
+                },
+                {
+                    "id": "career-exploration",
+                    "title": "Career Exploration",
+                    "description": "Resources for exploring different career paths, skills, industries, and possibilities.",
+                    "status": "coming-soon",
+                    "link": null
+                },
+                {
+                    "id": "speaking-communication",
+                    "title": "Speaking & Communication",
+                    "description": "Resources to help girls communicate clearly, express themselves, and build confidence with their voices.",
+                    "status": "coming-soon",
+                    "link": null
+                }
+            ]
+        },
+        {
+            "id": "personal-growth",
+            "title": "Personal Growth",
+            "description": "Resources for navigating everyday life, building confidence, developing leadership, and taking care of yourself.",
+            "icon": "growth",
+            "items": [
+                {
+                    "id": "confidence",
+                    "title": "Confidence",
+                    "description": "Ideas and resources for building self-belief, self-expression, and confidence.",
+                    "status": "coming-soon",
+                    "link": null
+                },
+                {
+                    "id": "wellbeing",
+                    "title": "Wellbeing",
+                    "description": "Resources focused on emotional wellness, healthy habits, self-care, and personal wellbeing.",
+                    "status": "coming-soon",
+                    "link": null
+                },
+                {
+                    "id": "leadership",
+                    "title": "Leadership",
+                    "description": "Resources for girls who want to develop leadership skills and make a difference around them.",
+                    "status": "coming-soon",
+                    "link": null
+                },
+                {
+                    "id": "life-skills",
+                    "title": "Life Skills",
+                    "description": "Practical resources for navigating school, relationships, decisions, opportunities, and everyday life.",
+                    "status": "coming-soon",
+                    "link": null
+                }
+            ]
+        }
+    ],
+    "featuredResource": {
+        "title": "You Are Allowed to Start Small",
+        "description": "You do not need to have everything figured out before taking your next step. Sometimes progress begins with one question, one conversation, one application, one skill, or one small decision.",
+        "status": "featured",
+        "link": null
+    },
+    "resourceSubmission": {
+        "title": "Know a resource Bloomies should see?",
+        "description": "If you know about a scholarship, program, learning resource, opportunity, or useful tool that could help girls, you can send it our way.",
+        "actions": [
+            {
+                "label": "Share a Resource",
+                "url": "contact.html",
+                "subject": "resource"
+            },
+            {
+                "label": "Get Involved",
+                "url": "get-involved.html"
+            }
+        ]
+    },
+    "resourceGuidelines": [
+        {
+            "title": "Useful",
+            "description": "Resources should offer something genuinely useful to girls and young people."
+        },
+        {
+            "title": "Relevant",
+            "description": "We aim to share resources that connect with the interests, goals, questions, and experiences of Bloomies."
+        },
+        {
+            "title": "Accessible",
+            "description": "Where possible, resources should be understandable and reasonably accessible to the people they are intended to serve."
+        },
+        {
+            "title": "Responsible",
+            "description": "Resources should be shared thoughtfully, with attention to safety, accuracy, and the experience of the girls using them."
+        }
+    ],
+    "futureLibrary": {
+        "enabled": false,
+        "description": "The resource library is currently structured as a foundation for future dynamic content.",
+        "plannedFields": [
+            "Resource title",
+            "Category",
+            "Description",
+            "Provider",
+            "Deadline",
+            "Eligibility",
+            "Location",
+            "Cost",
+            "Application link",
+            "Resource type",
+            "Status",
+            "Date added",
+            "Last reviewed"
+        ],
+        "plannedFeatures": [
+            "Search",
+            "Category filters",
+            "Opportunity filters",
+            "Resource submissions",
+            "Featured resources",
+            "Deadline information",
+            "Resource review workflow"
+        ]
+    },
+    "statusLabels": {
+        "coming-soon": "Coming soon",
+        "active": "Available",
+        "featured": "Featured",
+        "closed": "Closed"
+    },
+    "navigation": {
+        "page": "resources.html",
+        "contact": "contact.html",
+        "getInvolved": "get-involved.html",
+        "faq": "faq.html"
+    }
+}

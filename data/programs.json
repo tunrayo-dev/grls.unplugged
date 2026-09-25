@@ -1,0 +1,201 @@
+{
+    "programs": {
+        "title": "What We Do",
+        "intro": "We create spaces where girls can bloom and glow through honest conversations, meaningful connections, learning, laughter, and girl-led experiences.",
+        "status": "Active and growing"
+    },
+    "programList": [
+        {
+            "id": "weekly-vibes",
+            "name": "Weekly Vibes",
+            "category": "Community",
+            "status": "active",
+            "description": "Small moments throughout the week that help Bloomies connect, check in, stay encouraged, and have fun.",
+            "activities": [
+                {
+                    "name": "Motivation Monday",
+                    "day": "Monday",
+                    "focus": "Encouragement, goals, mindset, and starting the week with intention.",
+                    "format": "Community activity"
+                },
+                {
+                    "name": "Wellness Wednesday",
+                    "day": "Wednesday",
+                    "focus": "Check-ins, emotional wellness, self-care, and honest conversations.",
+                    "format": "Community activity"
+                },
+                {
+                    "name": "Fun Friday",
+                    "day": "Friday",
+                    "focus": "Games, laughter, connection, and lighter moments with the Bloomies.",
+                    "format": "Community activity"
+                },
+                {
+                    "name": "Reflection Saturday",
+                    "day": "Saturday",
+                    "focus": "Looking back on the week, sharing lessons, and checking in with yourself.",
+                    "format": "Community activity"
+                }
+            ]
+        },
+        {
+            "id": "community-conversations",
+            "name": "Community Conversations",
+            "category": "Conversations",
+            "status": "active",
+            "description": "Honest conversations about the things girls are experiencing, wondering about, learning, and figuring out.",
+            "features": [
+                {
+                    "title": "Honest Conversations",
+                    "description": "A space to talk about real-life experiences without needing everything to sound perfect."
+                },
+                {
+                    "title": "Girl-Led Topics",
+                    "description": "Conversations can grow from the questions, interests, and experiences of the girls themselves."
+                },
+                {
+                    "title": "Conversations That Stay With You",
+                    "description": "We want conversations to leave girls with something useful to think about, explore, or carry forward."
+                }
+            ]
+        },
+        {
+            "id": "guest-speaker-program",
+            "name": "Guest Speaker Program",
+            "category": "Learning",
+            "status": "active",
+            "description": "Monthly online conversations with people who bring experiences, knowledge, stories, and perspectives that can help Bloomies learn and grow.",
+            "schedule": {
+                "frequency": "First Friday of every month",
+                "time": "7:00–8:30 PM WAT",
+                "platform": "Google Meet"
+            },
+            "sessionStructure": [
+                {
+                    "time": "7:00–7:15 PM",
+                    "stage": "Arrive",
+                    "description": "Arrival, settling in, and introductions."
+                },
+                {
+                    "time": "7:15–8:15 PM",
+                    "stage": "Connect, Learn & Talk",
+                    "description": "The main guest conversation."
+                },
+                {
+                    "time": "8:15–8:30 PM",
+                    "stage": "Ask",
+                    "description": "Questions, final thoughts, and closing."
+                }
+            ],
+            "topicSelection": "Topics are shaped by the girls and the conversations they want to have.",
+            "relatedPage": "speakers.html"
+        },
+        {
+            "id": "quarterly-calls",
+            "name": "Quarterly Calls",
+            "category": "Community",
+            "status": "active",
+            "description": "Online community calls that give Bloomies a chance to actually see and connect with one another beyond everyday group conversations.",
+            "frequency": "Quarterly",
+            "format": "Online community call",
+            "focus": [
+                "Connection",
+                "Community",
+                "Reflection",
+                "Shared experiences"
+            ]
+        },
+        {
+            "id": "game-nights",
+            "name": "Game Nights",
+            "category": "Fun",
+            "status": "active",
+            "description": "Because girls need fun too! Game nights create room for laughter, friendly competition, random conversations, and memories with the Bloomies.",
+            "activities": [
+                "Group games",
+                "Icebreakers",
+                "Interactive challenges",
+                "Conversation games",
+                "Community bonding"
+            ]
+        },
+        {
+            "id": "anonymous-night",
+            "name": "Anonymous Night",
+            "category": "Community",
+            "status": "active",
+            "description": "A space where Bloomies can submit anonymous thoughts, questions, experiences, or things they may not feel comfortable saying openly.",
+            "platform": "NGL",
+            "link": "https://ngl.link/grlsunplugged",
+            "purpose": [
+                "Ask questions anonymously",
+                "Share thoughts",
+                "Start honest conversations",
+                "Help girls realise they are not alone"
+            ],
+            "safetyNote": "Anonymous participation does not remove the need for respect. Community conversations should remain kind, responsible, and safe."
+        },
+        {
+            "id": "special-initiatives",
+            "name": "Special Initiatives",
+            "category": "Projects",
+            "status": "growing",
+            "description": "Occasional projects, campaigns, challenges, and activities created around a specific need, idea, opportunity, or community moment.",
+            "examples": [
+                "Girl-led challenges",
+                "Community campaigns",
+                "Special conversations",
+                "Creative activities",
+                "Opportunity-focused initiatives"
+            ]
+        }
+    ],
+    "howProgramsWork": [
+        {
+            "number": "01",
+            "title": "Listen",
+            "description": "We pay attention to what girls are saying, asking, experiencing, and looking for."
+        },
+        {
+            "number": "02",
+            "title": "Ask",
+            "description": "We make room for questions and conversations rather than assuming we already know what girls need."
+        },
+        {
+            "number": "03",
+            "title": "Create",
+            "description": "We turn ideas into conversations, activities, programs, and experiences that girls can actually participate in."
+        },
+        {
+            "number": "04",
+            "title": "Grow",
+            "description": "We learn from each experience and keep improving the Circle as the community grows."
+        }
+    ],
+    "biggerPicture": [
+        {
+            "title": "A girl feels less alone.",
+            "description": "She knows there are other girls who understand, listen, and care."
+        },
+        {
+            "title": "A girl finds her voice.",
+            "description": "She gets room to ask questions, share her thoughts, and express herself."
+        },
+        {
+            "title": "A girl finds her people.",
+            "description": "She builds connections and friendships that make the community feel like somewhere she belongs."
+        }
+    ],
+    "futurePrograms": {
+        "status": "Planned",
+        "description": "As the community grows, Girls' Unplugged can expand its programs based on what Bloomies need and what the community is ready to build.",
+        "possibilities": [
+            "More learning sessions",
+            "Creative workshops",
+            "Career and opportunity conversations",
+            "Girl-led projects",
+            "Collaborative challenges",
+            "Community partnerships"
+        ]
+    }
+}

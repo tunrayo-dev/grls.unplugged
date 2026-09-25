@@ -1,0 +1,226 @@
+{
+    "site": {
+        "name": "Girls' Unplugged: Bloom & Glow Circle",
+        "shortName": "Girls' Unplugged",
+        "tagline": "A safe sisterhood space for girls to connect, share, laugh, and grow together.",
+        "motto": "Action, not titles.",
+        "description": "Girls' Unplugged: Bloom & Glow Circle is a girl-created online sisterhood where girls can connect, have honest conversations, build confidence, learn, laugh, and grow together.",
+        "language": "en",
+        "founded": "September",
+        "location": "Online community",
+        "status": "Growing"
+    },
+    "founder": {
+        "name": "Motunrayo Linda Idowu",
+        "role": "Founder & Community Director",
+        "signature": "With love, Motunrayo Linda Idowu"
+    },
+    "community": {
+        "name": "Bloom & Glow Circle",
+        "membersLabel": "Bloomies",
+        "members": "90+",
+        "countries": "6+",
+        "communityType": "Online sisterhood",
+        "purpose": [
+            "Confidence",
+            "Emotional wellness",
+            "Leadership",
+            "Honest conversations",
+            "Friendship",
+            "Personal growth",
+            "Belonging",
+            "Fun"
+        ]
+    },
+    "navigation": {
+        "desktop": [
+            {
+                "label": "Home",
+                "url": "index.html"
+            },
+            {
+                "label": "About",
+                "url": "about.html"
+            },
+            {
+                "label": "The Circle",
+                "url": "circle.html"
+            },
+            {
+                "label": "Programs",
+                "url": "programs.html"
+            },
+            {
+                "label": "Speakers",
+                "url": "speakers.html"
+            }
+        ],
+        "mobile": [
+            {
+                "label": "Home",
+                "url": "index.html"
+            },
+            {
+                "label": "About",
+                "url": "about.html"
+            },
+            {
+                "label": "The Circle",
+                "url": "circle.html"
+            },
+            {
+                "label": "Programs",
+                "url": "programs.html"
+            },
+            {
+                "label": "Speakers",
+                "url": "speakers.html"
+            },
+            {
+                "label": "Our Team",
+                "url": "team.html"
+            },
+            {
+                "label": "Our Impact",
+                "url": "impact.html"
+            },
+            {
+                "label": "Resources",
+                "url": "resources.html"
+            },
+            {
+                "label": "Get Involved",
+                "url": "get-involved.html"
+            },
+            {
+                "label": "FAQ",
+                "url": "faq.html"
+            },
+            {
+                "label": "Contact",
+                "url": "contact.html"
+            }
+        ],
+        "primaryCta": {
+            "label": "Join the Sisterhood",
+            "url": "get-involved.html"
+        }
+    },
+    "social": {
+        "instagram": {
+            "label": "Instagram",
+            "handle": "@grls_unplugged",
+            "url": "https://www.instagram.com/grls_unplugged/"
+        },
+        "tiktok": {
+            "label": "TikTok",
+            "handle": "@grls.unplugged",
+            "url": "https://www.tiktok.com/@grls.unplugged"
+        },
+        "email": {
+            "label": "Email",
+            "address": "grlsunplugged@gmail.com",
+            "url": "mailto:grlsunplugged@gmail.com"
+        }
+    },
+    "schedule": {
+        "weeklyVibes": [
+            {
+                "name": "Motivation Monday",
+                "day": "Monday",
+                "focus": "Encouragement, goals, mindset, and starting the week with intention."
+            },
+            {
+                "name": "Wellness Wednesday",
+                "day": "Wednesday",
+                "focus": "Check-ins, emotional wellness, self-care, and honest conversations."
+            },
+            {
+                "name": "Fun Friday",
+                "day": "Friday",
+                "focus": "Games, laughter, connection, and lighter moments with the Bloomies."
+            },
+            {
+                "name": "Reflection Saturday",
+                "day": "Saturday",
+                "focus": "Looking back on the week, sharing lessons, and checking in with yourself."
+            }
+        ],
+        "guestConversations": {
+            "frequency": "First Friday of every month",
+            "day": "Friday",
+            "time": "7:00–8:30 PM WAT",
+            "platform": "Google Meet",
+            "arrivalAndIntroduction": "7:00–7:15 PM",
+            "conversation": "7:15–8:15 PM",
+            "questionsAndClosing": "8:15–8:30 PM",
+            "topicSelection": "Topics are shaped by the girls and the conversations they want to have."
+        },
+        "communityCalls": {
+            "frequency": "Quarterly",
+            "format": "Online community call",
+            "purpose": "A chance for Bloomies to connect beyond everyday group conversations."
+        }
+    },
+    "links": {
+        "home": "index.html",
+        "about": "about.html",
+        "circle": "circle.html",
+        "programs": "programs.html",
+        "speakers": "speakers.html",
+        "team": "team.html",
+        "impact": "impact.html",
+        "resources": "resources.html",
+        "getInvolved": "get-involved.html",
+        "faq": "faq.html",
+        "contact": "contact.html",
+        "privacy": "privacy.html",
+        "admin": "admin.html",
+        "join": "get-involved.html",
+        "ngl": "https://ngl.link/grlsunplugged"
+    },
+    "brand": {
+        "colors": {
+            "deepPlum": "#4B2454",
+            "bloomPurple": "#7A4B78",
+            "softLavender": "#F1E8F5",
+            "softPink": "#FCE8EF",
+            "warmCream": "#FFF9F5",
+            "white": "#FFFFFF",
+            "mainText": "#2D252D",
+            "mutedText": "#716871"
+        },
+        "fonts": {
+            "heading": "Playfair Display",
+            "body": "DM Sans",
+            "script": "Caveat"
+        }
+    },
+    "assets": {
+        "logo": {
+            "default": "assets/logo/girls-unplugged-logo.svg",
+            "light": "assets/logo/girls-unplugged-logo-light.svg"
+        },
+        "faqGirl": "assets/images/general/faq-girl-placeholder.png"
+    },
+    "footer": {
+        "description": "A girl-created sisterhood where girls can connect, share, laugh, learn, and grow together.",
+        "motto": "Action, not titles.",
+        "cta": {
+            "label": "Ready to bloom with us?",
+            "url": "get-involved.html"
+        }
+    },
+    "privacy": {
+        "lastUpdated": "September 2026"
+    },
+    "technical": {
+        "repository": "tunrayo-dev/grls.unplugged",
+        "hosting": "GitHub Pages",
+        "canonicalBaseUrl": "https://tunrayo-dev.github.io/grls.unplugged/",
+        "dataArchitecture": "Static JSON data prepared for future dynamic integration.",
+        "backendConnected": false,
+        "contactFormConnected": false,
+        "adminConnected": false
+    }
+}
